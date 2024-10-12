@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #185eaa;
+}
+
+.footer {
+  background-color: #4e3f36;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e3dec6;
+  /* position: relative;
+  top: -250px; */
+}
+
+#projects {
+  background-color: #e3dec6;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.wave-top {
+  position: absolute;
+  top: 35px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+/* Top bar */
+.top-bar {
+  background-color: #e17726; /* Color similar to the image */
+  font-size: 14px;
+}
+
+.top-bar i {
+  margin-right: 5px;
+}
+
+.top-bar div i {
+  color: white;
+}
+
+.top-bar div {
+  display: inline-block;
+}
+
+.carousel-inner img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* CSS untuk mengaktifkan dropdown saat hover */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.nav-item.dropdown:hover .nav-link {
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Universitas Pamulang</title>
+
+    <!-- Bootstap CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="height: 1000px" id="home">
+    <!-- Navbar -->
+
+    <div class="top-bar bg-warning text-white py-2" style="height: 50px">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div><i class="fas fa-envelope"></i> universitaspamulang.ac.id <i class="fas fa-phone ms-3"></i> +6212345678</div>
+        <div><i class="fas fa-globe"></i> IND <i class="fas fa-user ms-3"></i> myUNPAM</div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="#">Logo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item mx-2">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#about">BERANDA</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#projects">PROFIL</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#contact">KEGIATAN</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#contact">KELEMBAGAAN</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> FAKULTAS </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#contact">UNIT INDUSTRI</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#contact">PENERIMAAN</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar End -->
+
+    <!-- Header -->
+
+    <div class="container-fluid p-0">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/unpam-viktor.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/unpam-viktor.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/unpam-viktor.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Header End -->
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script>
+      // Script untuk menambahkan class 'show' saat di-hover
+      document.querySelectorAll(".nav-item.dropdown").forEach(function (dropdown) {
+        dropdown.addEventListener("mouseover", function () {
+          this.classList.add("show");
+          this.querySelector(".dropdown-menu").classList.add("show");
+        });
+
+        dropdown.addEventListener("mouseout", function () {
+          this.classList.remove("show");
+          this.querySelector(".dropdown-menu").classList.remove("show");
+        });
+      });
+    </script>
+  </body>
+</html>
