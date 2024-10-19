@@ -38,7 +38,7 @@ section {
 
 /* Top bar */
 .top-bar {
-  background-color: #e17726; /* Color similar to the image */
+  background: #ffa000; /* Color similar to the image */
   font-size: 14px;
 }
 
@@ -60,10 +60,75 @@ section {
   object-fit: cover;
 }
 
+/* Bagian navbar */
+.navbar .container .collapse .navbar-nav > li > a:hover {
+  background: #ffa000;
+}
+
+/* Bagian Main => Akademik */
+.icon-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #e17726;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.icon-container h4 {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.icon-container p {
+  font-size: 14px;
+}
+
+/* Bagian Main = Sambutan Rektor */
+.btn-selengkapnya {
+  width: 181px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+/* Bagian Berita Unpam */
+.berita-img {
+  /* width: 801px; */
+  height: 400px;
+  border-radius: 20px 0px 0px 0px;
+  object-fit: cover;
+  opacity: 1;
+}
+
+.card-body {
+  color: white;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.card-title {
+  font-size: 1.25rem; /* Ukuran teks judul */
+  margin-bottom: 10px;
+}
+
+.card-body p {
+  margin: 0;
+}
+
+.card-body .btn {
+  padding: 10px 20px;
+  font-size: 0.9rem;
+}
+
+.card-body .d-flex {
+  justify-content: space-between; /* Agar teks tanggal dan tombol berada di ujung kiri dan kanan */
+  align-items: center;
+}
+
 /* CSS untuk mengaktifkan dropdown saat hover */
 .nav-item.dropdown:hover .dropdown-menu {
   display: block;
-}
-
-.nav-item.dropdown:hover .nav-link {
 }
