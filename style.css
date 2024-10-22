@@ -1,12 +1,76 @@
+:root {
+  --custom-primary: #185eaa;
+  --secondary: #ffa000;
+  --accent: #fffb00;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.navbar {
-  background-color: #185eaa;
+/* Fonts */
+body {
+  font-family: "Poppins", sans-serif;
 }
+
+/* Bagian Top Bar */
+.top-bar .top-bar-icons {
+  width: 19.98px;
+  height: 20px;
+  top: 14px;
+  left: 60.98px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.lambang-indonesia {
+  width: 19.94px;
+  height: 20px;
+  top: 15px;
+  left: 1119.49px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.akun {
+  width: 25.92px;
+  height: 26px;
+}
+
+/* Bagian Navbar Start */
+.logo-nav {
+  width: 59.95px;
+  height: 60px;
+  top: 56px;
+  left: 41.99px;
+  gap: 0px;
+  opacity: 0px;
+}
+.text-logo-nav .text-nav-1 {
+  font-family: "poppins";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 5%;
+}
+.text-logo-nav .text-nav-2 {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 5%;
+}
+
+.menu-nav {
+  height: 43px;
+  top: 63px;
+  left: 408px;
+  gap: 0px;
+  opacity: 0px;
+}
+/* Bagian Navbar End */
 
 .footer {
   background-color: #4e3f36;
@@ -65,26 +129,78 @@ section {
   background: #ffa000;
 }
 
-/* Bagian Main => Akademik */
+.menu-pendaftaran {
+  font-family: "Poppins";
+  font-weight: 600;
+  size: 16px;
+}
+
+.cari-informasi {
+  font-family: 500px;
+  size: 15px;
+  line-height: 22.5px;
+  align-items: center;
+  color: white;
+}
+
+/* Akademik */
+.heading {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.heading-2 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.h-akademik-unpam {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.text-akademik {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.text-1 {
+  font-family: "Poppins";
+  font-size: 14px;
+}
+
 .icon-circle {
-  width: 100px;
-  height: 100px;
+  width: 137px;
+  height: 137px;
   border-radius: 50%;
-  background-color: #e17726;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  background-color: #fffb00;
 }
 
-.icon-container h4 {
-  font-weight: bold;
-  margin-top: 20px;
+.icon-circle img {
+  height: 91px;
+  width: 91px;
 }
 
-.icon-container p {
-  font-size: 14px;
+.btn-selengkapnya {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 12px;
+  width: 181px;
+  height: 40px;
+  top: 1913px;
+  left: 620px;
+  background-color: #ffff;
+  border-radius: 5px;
+  color: #000000;
 }
 
 /* Bagian Main = Sambutan Rektor */
@@ -93,6 +209,8 @@ section {
   height: 40px;
   border-radius: 5px;
 }
+
+/* Bagian Statistic */
 
 /* Bagian Berita Unpam */
 .berita-img {
