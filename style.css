@@ -213,13 +213,6 @@ section {
 /* Bagian Statistic */
 
 /* Bagian Berita Unpam */
-.berita-img {
-  /* width: 801px; */
-  height: 400px;
-  border-radius: 20px 0px 0px 0px;
-  object-fit: cover;
-  opacity: 1;
-}
 
 .card-body {
   color: white;
