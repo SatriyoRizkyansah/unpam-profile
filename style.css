@@ -3,6 +3,7 @@
   --secondary: #ffa000;
   --accent: #fffb00;
 }
+
 /* Custom ScrollBar */
 ::-webkit-scrollbar {
   width: 12px;
@@ -46,8 +47,12 @@ body {
   width: 400px;
   height: 400px;
   margin: 0 auto;
-  background: #ffa000;
+  background: linear-gradient(135deg, #ffa200, #ffc800);
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 
 .rektor-container img {
   width: 400px;
@@ -105,6 +110,7 @@ body {
   from {
     transform: translateX(0);
   }
+
   to {
     transform: translateX(-100%);
   }
@@ -151,3 +157,46 @@ body {
 }
 
 /* infinite Footer Header logo slider End*/
+
+.container-fluid {
+  position: relative;
+  overflow: hidden;
+  /* Menjaga gambar tidak keluar dari kontainer */
+}
+
+.sambutan-rektor::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('img/viktor.png');
+  background-size: cover;
+  /* Menyesuaikan ukuran gambar dengan kontainer */
+  background-position: center;
+  /* Mengatur posisi gambar di tengah */
+  opacity: 0.1;
+  /* Mengatur transparansi */
+  z-index: 1;
+  /* Menempatkan di bawah konten */
+}
+
+.row {
+  position: relative;
+  /* Mengatur posisi untuk z-index pada row */
+  z-index: 2;
+  /* Menempatkan konten di atas gambar latar belakang */
+}
+
+.d-none {
+  display: none;
+  /* Sembunyikan elemen dengan kelas d-none */
+}
+
+#toggleText {
+  cursor: pointer;
+  /* Mengubah kursor menjadi pointer */
+  color: white;
+  /* Mengatur warna teks */
+}
