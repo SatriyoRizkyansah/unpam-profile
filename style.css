@@ -7,7 +7,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 /* Fonts */
@@ -15,231 +14,118 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* Bagian Top Bar */
-.top-bar .top-bar-icons {
-  width: 19.98px;
-  height: 20px;
-  top: 14px;
-  left: 60.98px;
-  gap: 0px;
-  opacity: 0px;
-}
-
-.lambang-indonesia {
-  width: 19.94px;
-  height: 20px;
-  top: 15px;
-  left: 1119.49px;
-  gap: 0px;
-  opacity: 0px;
-}
-
-.akun {
-  width: 25.92px;
-  height: 26px;
-}
-
-/* Bagian Navbar Start */
-.logo-nav {
-  width: 59.95px;
-  height: 60px;
-  top: 56px;
-  left: 41.99px;
-  gap: 0px;
-  opacity: 0px;
-}
-.text-logo-nav .text-nav-1 {
-  font-family: "poppins";
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 5%;
-}
-.text-logo-nav .text-nav-2 {
-  font-family: "poppins";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 5%;
-}
-
-.menu-nav {
-  height: 43px;
-  top: 63px;
-  left: 408px;
-  gap: 0px;
-  opacity: 0px;
-}
-/* Bagian Navbar End */
-
-.footer {
-  background-color: #4e3f36;
-}
-
-.jumbotron {
-  padding-top: 6rem;
-  background-color: #e3dec6;
-  /* position: relative;
-  top: -250px; */
-}
-
-#projects {
-  background-color: #e3dec6;
-}
-
-section {
-  padding-top: 5rem;
-}
-
-.wave-top {
-  position: absolute;
-  top: 35px;
-}
-
-.text-justify {
-  text-align: justify;
-}
-
-/* Top bar */
-.top-bar {
-  background: #ffa000; /* Color similar to the image */
-  font-size: 14px;
-}
-
-.top-bar i {
-  margin-right: 5px;
-}
-
-.top-bar div i {
+.dropdown-item {
   color: white;
 }
 
-.top-bar div {
-  display: inline-block;
+.icon-circle i {
+  font-size: 150px;
 }
 
-.carousel-inner img {
-  height: 500px;
-  width: 100%;
-  object-fit: cover;
-}
-
-/* Bagian navbar */
-.navbar .container .collapse .navbar-nav > li > a:hover {
+.rektor-container {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
   background: #ffa000;
 }
 
-.menu-pendaftaran {
-  font-family: "Poppins";
-  font-weight: 600;
-  size: 16px;
+.rektor-container img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
 }
 
-.cari-informasi {
-  font-family: 500px;
-  size: 15px;
-  line-height: 22.5px;
-  align-items: center;
-  color: white;
-}
-
-/* Akademik */
-.heading {
-  font-family: "Poppins";
-  font-weight: 600;
-  font-size: 40px;
-}
-
-.heading-2 {
-  font-family: "Poppins";
-  font-weight: 700;
-  font-size: 32px;
-}
-
-.h-akademik-unpam {
-  font-family: "Poppins";
-  font-weight: 400;
-  font-size: 32px;
-}
-
-.text-akademik {
-  font-family: "Poppins";
-  font-weight: 500;
-  font-size: 15px;
-}
-
-.text-1 {
-  font-family: "Poppins";
-  font-size: 14px;
-}
-
-.icon-circle {
-  width: 137px;
-  height: 137px;
-  border-radius: 50%;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  background-color: #fffb00;
-}
-
-.icon-circle img {
-  height: 91px;
-  width: 91px;
-}
-
-.btn-selengkapnya {
-  font-family: "Poppins";
-  font-weight: 700;
+.nav-link {
   font-size: 12px;
-  width: 181px;
-  height: 40px;
-  top: 1913px;
-  left: 620px;
-  background-color: #ffff;
-  border-radius: 5px;
-  color: #000000;
 }
 
-/* Bagian Main = Sambutan Rektor */
-.btn-selengkapnya {
-  width: 181px;
-  height: 40px;
-  border-radius: 5px;
+.custom-scroll {
+  max-height: 300px;
+  /* Sesuaikan tinggi sesuai kebutuhan */
+  overflow-y: auto;
 }
 
-/* Bagian Statistic */
-
-/* Bagian Berita Unpam */
-
-.card-body {
-  color: white;
-  padding: 15px;
-  background: rgba(0, 0, 0, 0.5);
+/* Menyembunyikan scrollbar di Webkit */
+.custom-scroll::-webkit-scrollbar {
+  display: none;
 }
 
-.card-title {
-  font-size: 1.25rem; /* Ukuran teks judul */
-  margin-bottom: 10px;
+/* Menyembunyikan scrollbar di Firefox */
+.custom-scroll {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  /* Internet Explorer dan Edge */
 }
 
-.card-body p {
-  margin: 0;
+/* Tablet (ukuran antara 768px dan 991px) */
+@media (max-width: 991px) {
+  .rektor-container {
+    width: 300px;
+    height: 300px;
+  }
+
+  .rektor-container img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .nav-link {
+    font-size: 16px;
+  }
+
+  .top-bar .container {
+    font-size: 0.8rem;
+    /* Font lebih kecil pada mobile */
+  }
 }
 
-.card-body .btn {
-  padding: 10px 20px;
-  font-size: 0.9rem;
+/* infinite logo */
+
+@keyframes slides {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
 
-.card-body .d-flex {
-  justify-content: space-between; /* Agar teks tanggal dan tombol berada di ujung kiri dan kanan */
-  align-items: center;
+.logos {
+  overflow: hidden;
+  padding: 30px 0px;
+  white-space: nowrap;
+  position: relative;
 }
 
-/* CSS untuk mengaktifkan dropdown saat hover */
-.nav-item.dropdown:hover .dropdown-menu {
-  display: block;
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  content: "";
+  width: 250px;
+  height: 100%;
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(255, 160, 0));
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 160, 0));
+}
+
+.logo_items {
+  display: inline-block;
+  animation: 35s slides infinite linear;
+}
+
+.logos:hover .logo_items {
+  animation-play-state: paused;
+}
+
+.logo_items img {
+  height: 80px;
 }
