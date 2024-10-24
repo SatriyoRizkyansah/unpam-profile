@@ -3,6 +3,26 @@
   --secondary: #ffa000;
   --accent: #fffb00;
 }
+/* Custom ScrollBar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #185eaa;
+  border-radius: 10px;
+  border: 3px solid #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #0056b3;
+}
+
+/* Custom ScrollBar Ends*/
 
 * {
   margin: 0;
@@ -79,7 +99,7 @@ body {
   }
 }
 
-/* infinite logo */
+/* infinite Footer Header logo slider*/
 
 @keyframes slides {
   from {
@@ -109,12 +129,12 @@ body {
 
 .logos:before {
   left: 0;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(255, 160, 0));
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(24, 90, 161));
 }
 
 .logos:after {
   right: 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 160, 0));
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(24, 90, 161));
 }
 
 .logo_items {
@@ -129,3 +149,5 @@ body {
 .logo_items img {
   height: 80px;
 }
+
+/* infinite Footer Header logo slider End*/
