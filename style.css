@@ -43,16 +43,36 @@ body {
   font-size: 150px;
 }
 
+/* akademik start */
+/* Akademik */
+.icon-circle {
+  width: 137px;
+  height: 137px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #fffb00;
+}
+
+.icon-circle img {
+  height: 91px;
+  width: 91px;
+}
+
+/* akademik end */
+
 .rektor-container {
   width: 400px;
   height: 400px;
   margin: 0 auto;
-  background: linear-gradient(135deg, #ffa200, #ffc800);
+  background-color: #ffa000;
   border-radius: 50%;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 
 .rektor-container img {
   width: 400px;
@@ -171,7 +191,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('img/viktor.png');
+  background-image: url("img/viktor.png");
   background-size: cover;
   /* Menyesuaikan ukuran gambar dengan kontainer */
   background-position: center;
