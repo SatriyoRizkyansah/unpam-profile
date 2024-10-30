@@ -9,6 +9,9 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
     <script src="https://kit.fontawesome.com/8c8ccf764d.js" crossorigin="anonymous"></script>
 
+    <!-- Script AutoTyping -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
 
@@ -133,7 +136,7 @@
         <div class="row w-100">
           <div class="col-8 col-md-5 d-flex justify-content-center align-items-center">
             <div class="ms-5 ms-md-5">
-              <p class="fs-6 text-white fw-normal">Selamat datang di Website</p>
+              <p class="fs-6 text-white fw-normal" id="app"></p>
               <span class="fw-bold text-white" style="font-size: 2.5em">Universitas <br />Pamulang</span>
             </div>
           </div>
@@ -527,7 +530,7 @@
           <div class="position-relative">
             <h4 class="mb-3 text-start" style="font-family: 'Poppins'; font-weight: 600; font-size: 20px; color: #185eaa; border-bottom: 3px solid #185eaa">INFORMASI TERKINI</h4>
             <div class="card mb-4 position-relative overflow-hidden">
-              <img src="img/berita1.jpg" class="rounded-2 i" alt="Publikasi 1" style="height: 460px; object-fit: cover; opacity: 1" />
+              <img src="img/berita1.jpg" class="rounded-2 responsive-img" alt="Publikasi 1" />
               <div class="card-body text-white position-absolute bottom-0 start-0 end-0" style="background-color: rgba(0, 0, 0, 0.5)">
                 <h5 class="card-title">Rapat Koordinasi Orangtua Terkait Pembelajaran Baru <i class="bi bi-share-fill"></i></h5>
                 <div class="d-flex justify-content-between align-items-center">
@@ -538,6 +541,7 @@
             </div>
           </div>
         </div>
+
         <!-- Informasi Terkini End -->
 
         <!-- Videep & Berita Lainnya Start-->
@@ -882,6 +886,22 @@
           this.innerText = "Baca Selengkapnya"; // Kembali ke teks awal
         }
       });
+
+      // Autotyping
+      var app = document.getElementById("app");
+
+      var typewriter = new Typewriter(app, {
+        loop: false,
+        delay: 75,
+      });
+
+      typewriter
+        .pauseFor(500)
+        .typeString("Selamat datang di Website")
+        .pauseFor(800)
+
+        .start();
+      8;
     </script>
   </body>
 </html>
