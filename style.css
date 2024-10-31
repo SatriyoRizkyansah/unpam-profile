@@ -221,6 +221,8 @@ body {
   /* Mengatur warna teks */
 }
 
+/* Responsive img di section berita */
+
 .responsive-img {
   width: 100%; /* Memastikan gambar memenuhi lebar container */
   object-fit: cover;
@@ -243,5 +245,47 @@ body {
 @media (max-width: 767px) {
   .responsive-img {
     height: 300px;
+  }
+}
+
+/* Hover pada section kampus */
+.card-kampus {
+  transition: margin-bottom 0.3s ease, transform 0.3s ease;
+}
+
+.card-kampus:hover {
+  margin-bottom: 10px;
+}
+
+.card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.card-kampus:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+/* Hover pada section Layanan */
+.card-Layanan {
+  transition: margin-bottom 0.3s ease, transform 0.3s ease;
+}
+
+.card-layanan-image {
+  transition: transform 0.3s ease;
+}
+
+.card-layanan:hover .card-layanan-image {
+  transform: scale(1.05);
+}
+
+/* footer border right */
+
+.footer-border {
+  border-right: solid 2px rgba(225, 225, 225, 0.6);
+}
+
+@media (max-width: 767px) {
+  .footer-border {
+    border-right: solid 0px rgba(225, 225, 225, 0.6);
   }
 }
