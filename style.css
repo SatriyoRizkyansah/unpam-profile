@@ -378,6 +378,21 @@ body {
   transform: scale(1.05);
 }
 
+@media (min-width: 1600px) {
+  .card-layanan {
+    height: 250px;
+  }
+}
+/* Layanan dan Agenda scroll */
+.agenda-scroll {
+  max-height: 320px;
+}
+@media (min-width: 1600px) {
+  .agenda-scroll {
+    max-height: 520px;
+  }
+}
+
 /* footer border right */
 
 .footer-border {
