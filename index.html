@@ -6,45 +6,29 @@
     <title>Universitas Pamulang</title>
 
     <!-- Bootstap CSS -->
-    <link
-      href="bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://kit.fontawesome.com/8c8ccf764d.js"
-      crossorigin="anonymous"
-    ></script>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/8c8ccf764d.js" crossorigin="anonymous"></script>
 
     <!-- Script AutoTyping -->
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
     <!-- Bootstrap Icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
 
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body id="home" style="overflow-x: hidden">
+    <!-- top bar start -->
     <div class="heading sticky-top">
-      <!-- top bar start -->
       <div class="top-bar text-white p-2" style="background-color: #ffa000">
-        <div
-          class="container justify-content-between d-flex align-items-center small"
-        >
+        <div class="container justify-content-between d-flex align-items-center small">
           <div class="d-flex flex-wrap">
             <div class="me-3">
               <i class="bi bi-envelope-at-fill top-bar-icons text-dark"></i>
@@ -54,30 +38,15 @@
           </div>
           <div class="d-flex flex-wrap">
             <div class="dropdown me-3 p-0">
-              <button
-                class="badge bg-danger border-0 dropdown-toggle"
-                type="button"
-                id="dropdownMenuButton"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                IND
-              </button>
-              <ul
-                class="dropdown-menu bg-danger"
-                aria-labelledby="dropdownMenuButton"
-              >
+              <button class="badge bg-danger border-0 dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">IND</button>
+              <ul class="dropdown-menu bg-danger" aria-labelledby="dropdownMenuButton">
                 <li><a class="dropdown-item" href="#">Indonesia</a></li>
                 <li><a class="dropdown-item" href="#">Inggris</a></li>
                 <li><a class="dropdown-item" href="#">Malaysia</a></li>
               </ul>
             </div>
             <div>
-              <a
-                href="https://my.unpam.ac.id"
-                class="text-decoration-none text-white"
-                >My Unpam</a
-              >
+              <a href="https://my.unpam.ac.id" class="text-decoration-none text-white">My Unpam</a>
             </div>
           </div>
         </div>
@@ -85,76 +54,35 @@
       <!-- top bar End -->
 
       <!-- Navbar Start -->
-      <nav
-        class="navbar navbar-expand-lg navbar-dark shadow-sm"
-        style="background-color: var(--custom-primary)"
-      >
+      <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background-color: var(--custom-primary)">
         <div class="container">
-          <a
-            class="navbar-brand d-flex align-items-center"
-            style="cursor: default"
-            href="#"
-          >
-            <img
-              src="img/logo-unpam.png"
-              alt="logo-unpam"
-              width="35px"
-              class="me-2 logo-nav"
-            />
+          <a class="navbar-brand d-flex align-items-center" style="cursor: default" href="#">
+            <img src="img/logo-unpam.png" alt="logo-unpam" width="35px" class="me-2 logo-nav" />
             <div class="text-logo-nav">
               <h6 class="mb-0 text-nav-1">UNIVERSITAS PAMULANG</h6>
-              <h6 class="mb-0 text-nav-2" style="color: #fffb00">
-                | Berbagi Untuk Negeri
-              </h6>
+              <h6 class="mb-0 text-nav-2" style="color: #fffb00">| Berbagi Untuk Negeri</h6>
             </div>
           </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto mx-3">
               <li class="nav-item pb-0 me-2">
-                <a class="nav-link text-white text-white menu-nav" href="#about"
-                  >BERANDA</a
-                >
+                <a class="nav-link text-white text-white menu-nav" href="#about">BERANDA</a>
               </li>
               <li class="nav-item me-3">
-                <a class="nav-link text-white menu-nav" href="#projects"
-                  >PROFIL</a
-                >
+                <a class="nav-link text-white menu-nav" href="#projects">PROFIL</a>
               </li>
               <li class="nav-item me-3">
-                <a class="nav-link text-white menu-nav" href="#contact"
-                  >KEGIATAN</a
-                >
+                <a class="nav-link text-white menu-nav" href="#contact">KEGIATAN</a>
               </li>
               <li class="nav-item me-3">
-                <a class="nav-link text-white menu-nav" href="#contact"
-                  >KELEMBAGAAN</a
-                >
+                <a class="nav-link text-white menu-nav" href="#contact">KELEMBAGAAN</a>
               </li>
               <li class="nav-item dropdown me-3">
-                <a
-                  class="nav-link dropdown-toggle text-white menu-nav"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  FAKULTAS
-                </a>
-                <ul
-                  class="dropdown-menu border-0"
-                  style="background-color: var(--custom-primary)"
-                >
+                <a class="nav-link dropdown-toggle text-white menu-nav" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> FAKULTAS </a>
+                <ul class="dropdown-menu border-0" style="background-color: var(--custom-primary)">
                   <li><a class="dropdown-item" href="#">Action</a></li>
                   <li><a class="dropdown-item" href="#">Another action</a></li>
                   <li>
@@ -163,9 +91,7 @@
                 </ul>
               </li>
               <li class="nav-item me-3">
-                <a class="nav-link text-white menu-nav" href="#contact"
-                  >UNIT INDUSTRI</a
-                >
+                <a class="nav-link text-white menu-nav" href="#contact">UNIT INDUSTRI</a>
               </li>
               <li class="nav-item me-3">
                 <a class="nav-link text-white menu-nav" href="#contact">PMB</a>
@@ -211,53 +137,25 @@
         </button>
       </div> -->
 
-      <div
-        class="heading d-flex align-items-center position-relative"
-        style="
-          background-image: linear-gradient(
-              to right,
-              rgba(0, 79, 163, 0.713),
-              rgba(0, 0, 255, 0) 70%
-            ),
-            url('img/kampus/viktor.png');
-          height: 87vh;
-          background-size: cover;
-        "
-      >
+      <div class="heading d-flex align-items-center position-relative" style="background-image: linear-gradient(to right, rgba(0, 79, 163, 0.713), rgba(0, 0, 255, 0) 70%), url('img/kampus/viktor.png'); height: 87vh; background-size: cover">
         <div class="row w-100">
-          <div
-            class="col-8 col-md-5 d-flex justify-content-center align-items-center"
-          >
+          <div class="col-8 col-md-5 d-flex justify-content-center align-items-center">
             <div class="ms-5 ms-md-5">
               <p class="fs-6 text-white fw-normal" id="app"></p>
-              <span class="fw-bold text-white" style="font-size: 2.5em"
-                >Universitas <br />Pamulang</span
-              >
+              <span class="fw-bold text-white" style="font-size: 2.5em">Universitas <br />Pamulang</span>
             </div>
           </div>
           <div class="col-7"></div>
         </div>
 
         <!-- Bagian "Cari informasi" ditambahkan dengan posisi absolut di bawah -->
-        <div
-          class="cari-informasi text-center position-absolute p-2 w-100 d-flex justify-content-center align-items-center"
-          style="background: rgba(24, 94, 170, 0.801); bottom: 0"
-        >
-          <div
-            class="d-flex justify-content-center align-items-center text-decoration-none p-2"
-            style="width: 90%"
-          >
-            <a href="#" class="text-white text-decoration-none mx-2"
-              >TENTANG UNPAM</a
-            >
+        <div class="cari-informasi text-center position-absolute p-2 w-100 d-flex justify-content-center align-items-center" style="background: rgba(24, 94, 170, 0.801); bottom: 0">
+          <div class="d-flex justify-content-center align-items-center text-decoration-none p-2" style="width: 90%">
+            <a href="#" class="text-white text-decoration-none mx-2">TENTANG UNPAM</a>
             <p class="text-white mb-0 mx-2">|</p>
-            <a href="#" class="text-white text-decoration-none mx-2"
-              >YOUTUBE UNPAM</a
-            >
+            <a href="#" class="text-white text-decoration-none mx-2">YOUTUBE UNPAM</a>
             <p class="text-white mb-0 mx-2">|</p>
-            <a href="#" class="text-white text-decoration-none mx-2"
-              >INSTAGRAM UNPAM</a
-            >
+            <a href="#" class="text-white text-decoration-none mx-2">INSTAGRAM UNPAM</a>
           </div>
         </div>
       </div>
@@ -266,21 +164,8 @@
 
       <div class="container text-center">
         <!-- Lingkaran kuning dengan ikon di dalamnya -->
-        <div
-          class="d-inline-block"
-          style="
-            position: fixed;
-            bottom: 30px;
-            left: 20px;
-            z-index: 9999;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-            border-radius: 50%;
-          "
-        >
-          <span
-            class="d-inline-block rounded-circle p-2"
-            style="width: 40px; height: 40px; background-color: #185eaa"
-          >
+        <div class="d-inline-block" style="position: fixed; bottom: 30px; left: 20px; z-index: 9999; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); border-radius: 50%">
+          <span class="d-inline-block rounded-circle p-2" style="width: 40px; height: 40px; background-color: #185eaa">
             <i class="bi bi-person-circle" style="color: #fffb00"></i>
           </span>
         </div>
@@ -289,15 +174,7 @@
         <a
           href="#"
           class="menu-pendaftaran btn d-flex align-items-center rounded-pill text-decoration-none"
-          style="
-            position: fixed;
-            bottom: 30px;
-            left: 70px;
-            background: #185eaa;
-            color: #fffb00;
-            z-index: 9999;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-          "
+          style="position: fixed; bottom: 30px; left: 70px; background: #185eaa; color: #fffb00; z-index: 9999; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2)"
         >
           <i></i> Pendaftaran PMB 2024
         </a>
@@ -314,8 +191,7 @@
     <div class="container text-center mt-5">
       <h2 class="heading" style="color: var(--custom-primary)">AKADEMIK</h2>
       <p class="mt-3 text-akademik">
-        Mempersiapkan mahasiswa untuk memberikan kontribusi yang berarti pada
-        masyarakat, <br />
+        Mempersiapkan mahasiswa untuk memberikan kontribusi yang berarti pada masyarakat, <br />
         bangsa dan dunia.
       </p>
       <div class="row mt-5">
@@ -323,17 +199,10 @@
         <div class="col-md-4">
           <div class="icon-container">
             <div class="icon-circle text-center mb-4">
-              <img
-                src="img/img-kenapa-unpam.png"
-                alt="kenapa unpam"
-                class="img-logo"
-              />
+              <img src="img/img-kenapa-unpam.png" alt="kenapa unpam" class="img-logo" />
             </div>
             <h3 class="mb-5 mt-5 h-akademik-unpam">Kenapa Unpam</h3>
-            <p class="mb-5 t-akademik-unpam">
-              Universitas Pamulang menjadi Perguruan Tinggi Swasta Terbaik di
-              Indonesia yang telah terakreditasi baik
-            </p>
+            <p class="mb-5 t-akademik-unpam">Universitas Pamulang menjadi Perguruan Tinggi Swasta Terbaik di Indonesia yang telah terakreditasi baik</p>
           </div>
         </div>
         <!-- Fakultas -->
@@ -343,26 +212,17 @@
               <img src="img/img-fakultas-unpam.png" alt="fakultas unpam" />
             </div>
             <h3 class="mb-5 mt-5 h-akademik-unpam">FAKULTAS</h3>
-            <p class="mb-5 t-akademik-unpam">
-              Terdapat 10 Fakultas dan 40 Program Studi terdiri atas Program
-              Doktoral, Magister, Sarjana, Sarjana Terapan, dan Diploma.
-            </p>
+            <p class="mb-5 t-akademik-unpam">Terdapat 10 Fakultas dan 40 Program Studi terdiri atas Program Doktoral, Magister, Sarjana, Sarjana Terapan, dan Diploma.</p>
           </div>
         </div>
         <!-- Berkuliah -->
         <div class="col-md-4">
           <div class="icon-container">
-            <div
-              class="icon-circle text-center mb-4"
-              style="background: #fffb00"
-            >
+            <div class="icon-circle text-center mb-4" style="background: #fffb00">
               <img src="img/img-berkuliah-unpam.png" alt="berkuliah unpam" />
             </div>
             <h3 class="mb-5 mt-5 h-akademik-unpam">KULIAH</h3>
-            <p class="mb-5 t-akademik-unpam">
-              Universitas Pamulang memiliki layanan sistem akademik berbasis
-              digital yang telah terintegrasi untuk mendukung
-            </p>
+            <p class="mb-5 t-akademik-unpam">Universitas Pamulang memiliki layanan sistem akademik berbasis digital yang telah terintegrasi untuk mendukung</p>
           </div>
         </div>
       </div>
@@ -373,47 +233,26 @@
     <div class="sambutan-rektor container-fluid bg-primary">
       <!-- Bagian Sambutan -->
       <div class="row mb-2 align-items-center">
-        <h2 class="text-white text-center mb-2 mt-4 heading">
-          Sambutan Rektor
-        </h2>
+        <h2 class="text-white text-center mb-2 mt-4 heading">Sambutan Rektor</h2>
         <div class="col-md-5 d-flex justify-content-center">
           <div class="rektor-container mb-4 shadow-sm">
-            <img
-              src="img/rektorat.png"
-              class="img-fluid"
-              alt="Rektor"
-              style="border: 25px solid #ffa000; border-radius: 50%"
-            />
+            <img src="img/rektorat.png" class="img-fluid" alt="Rektor" style="border: 25px solid #ffa000; border-radius: 50%" />
           </div>
         </div>
         <!-- Teks Sambutan -->
         <div class="col-md-7">
-          <h3 class="text-white mb-4 heading-2">
-            Dr. E. Nurzaman, AM, M.M., M.Si.
-          </h3>
+          <h3 class="text-white mb-4 heading-2">Dr. E. Nurzaman, AM, M.M., M.Si.</h3>
           <p class="text-white text-justify mb-4" style="line-height: 1.7">
-            Universitas Pamulang (UNPAM) merupakan sebuah Perguruan Tinggi
-            swasta yang memberikan kesempatan pendidikan tinggi kepada semua
-            lapisan masyarakat terutama kepada mereka yang kurang beruntung,
-            baik secara finansial maupun akademik. Oleh karena itu, biaya
-            pendidikan di UNPAM dibuat sangat terjangkau dan tanpa uang bangunan
-            atau uang gedung, sehingga mereka yang secara ekonomi kurang mampu
-            dapat memperoleh kesempatan untuk meningkatkan pengetahuan dan
-            kompetensi pada jenjang pendidikan tinggi.
+            Universitas Pamulang (UNPAM) merupakan sebuah Perguruan Tinggi swasta yang memberikan kesempatan pendidikan tinggi kepada semua lapisan masyarakat terutama kepada mereka yang kurang beruntung, baik secara finansial maupun
+            akademik. Oleh karena itu, biaya pendidikan di UNPAM dibuat sangat terjangkau dan tanpa uang bangunan atau uang gedung, sehingga mereka yang secara ekonomi kurang mampu dapat memperoleh kesempatan untuk meningkatkan pengetahuan
+            dan kompetensi pada jenjang pendidikan tinggi.
             <span id="moreText" class="d-none">
               <br /><br />
-              Atas nama pimpinan dan seluruh civitas akademik UNPAM, saya
-              mengucapkan terima kasih kepada semua pihak atas dukungan,
-              partisipasi, dan kerja sama bagi kemajuan dan kesuksesan UNPAM.
-              Semoga UNPAM semakin berjaya, bermakna, dan membanggakan.
+              Atas nama pimpinan dan seluruh civitas akademik UNPAM, saya mengucapkan terima kasih kepada semua pihak atas dukungan, partisipasi, dan kerja sama bagi kemajuan dan kesuksesan UNPAM. Semoga UNPAM semakin berjaya, bermakna, dan
+              membanggakan.
             </span>
           </p>
-          <a
-            href="javascript:void(0);"
-            id="toggleText"
-            class="text-black font-weight-bold text-decoration-none btn btn-warning small fw-medium"
-            >Baca Selengkapnya</a
-          >
+          <a href="javascript:void(0);" id="toggleText" class="text-black font-weight-bold text-decoration-none btn btn-warning small fw-medium">Baca Selengkapnya</a>
         </div>
       </div>
 
@@ -440,14 +279,8 @@
     <!-- Bagian Sambutan Rektor End -->
 
     <!-- Tentang Unpam Start -->
-
     <div class="container mb-5">
-      <h2
-        class="mt-5 heading text-center pb-5 heading"
-        style="color: var(--custom-primary)"
-      >
-        TENTANG UNPAM
-      </h2>
+      <h2 class="mt-5 heading text-center pb-5 heading" style="color: var(--custom-primary)">TENTANG UNPAM</h2>
 
       <div class="row align-items-center justify-content-center mb-5">
         <div class="col-3 g-0 mb-4" style="width: 250px">
@@ -456,20 +289,8 @@
           </div>
         </div>
         <div class="col-md-9 col-xl-9 col-xxl-9 col-10">
-          <h1
-            class="fw-bold"
-            style="
-              color: var(--accent);
-              text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-            "
-          >
-            UNIVERSITAS PAMULANG
-          </h1>
-          <span class=""
-            ><b>Universitas Pamulang (UNPAM)</b> adalah universitas swasta yang
-            terletak di Pamulang, Banten, Indonesia. UNPAM berdiri dengan nama
-            Yayasan Universitas Pamulang pada 4 Juni 2000.</span
-          >
+          <h1 class="fw-bold" style="color: var(--accent); text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)">UNIVERSITAS PAMULANG</h1>
+          <span class=""><b>Universitas Pamulang (UNPAM)</b> adalah universitas swasta yang terletak di Pamulang, Banten, Indonesia. UNPAM berdiri dengan nama Yayasan Universitas Pamulang pada 4 Juni 2000.</span>
         </div>
       </div>
 
@@ -479,36 +300,12 @@
       <div class="row">
         <div class="col-12 col-sm-6 col-xl-6 col-xxl-6 mb-5">
           <div style="align-items: center">
-            <h4
-              class="fw-semibold"
-              style="
-                font-family: 'Poppins';
-                font-weight: 600;
-                font-size: 20px;
-                color: #185eaa;
-                margin: 0;
-              "
-            >
-              VIDEO PROFIL UNPAM
-            </h4>
-            <div
-              class="line"
-              style="
-                flex-grow: 1;
-                height: 2px;
-                background-color: #185eaa;
-                margin-left: 10px;
-              "
-            ></div>
+            <h4 class="fw-semibold" style="font-family: 'Poppins'; font-weight: 600; font-size: 20px; color: #185eaa; margin: 0">VIDEO PROFIL UNPAM</h4>
+            <div class="line" style="flex-grow: 1; height: 2px; background-color: #185eaa; margin-left: 10px"></div>
           </div>
 
           <div class="mt-4">
-            <iframe
-              class="w-100 rounded"
-              style="height: 350px"
-              src="https://www.youtube.com/embed/PLqTSMjl8n8"
-              allowfullscreen
-            ></iframe>
+            <iframe class="w-100 rounded" style="height: 350px" src="https://www.youtube.com/embed/PLqTSMjl8n8" allowfullscreen></iframe>
           </div>
         </div>
         <!-- Video Profile Unpam End-->
@@ -517,57 +314,21 @@
         <!-- Fakultas Start -->
         <div class="col-12 col-md-6 col-xl-6 col-xxl-6">
           <div class="display: flex; align-items: center">
-            <h4
-              class="fw-semibold"
-              style="
-                font-family: 'Poppins';
-                font-weight: 600;
-                font-size: 20px;
-                color: #185eaa;
-                margin: 0;
-              "
-            >
-              Data Terkini
-            </h4>
-            <div
-              class="line"
-              style="
-                flex-grow: 1;
-                height: 2px;
-                background-color: #185eaa;
-                margin-left: 10px;
-              "
-            ></div>
+            <h4 class="fw-semibold" style="font-family: 'Poppins'; font-weight: 600; font-size: 20px; color: #185eaa; margin: 0">Data Terkini</h4>
+            <div class="line" style="flex-grow: 1; height: 2px; background-color: #185eaa; margin-left: 10px"></div>
           </div>
 
           <div class="row">
             <div class="col-6 mt-4">
-              <div
-                class="card w-100"
-                style="border-radius: 8px; overflow: hidden"
-              >
+              <div class="card w-100" style="border-radius: 8px; overflow: hidden">
                 <div class="d-flex">
                   <!-- Bagian Kiri (Logo) -->
-                  <div
-                    class="text-white d-flex justify-content-center"
-                    style="
-                      background-color: #184274;
-                      width: 60px;
-                      padding: 20px;
-                    "
-                  >
+                  <div class="text-white d-flex justify-content-center" style="background-color: #184274; width: 60px; padding: 20px">
                     <span style="font-weight: bold">LOGO</span>
                   </div>
 
                   <!-- Bagian Kanan -->
-                  <div
-                    class="text-white d-flex flex-column justify-content-center w-100"
-                    style="
-                      background-color: var(--custom-primary);
-                      width: 70%;
-                      padding: 10px;
-                    "
-                  >
+                  <div class="text-white d-flex flex-column justify-content-center w-100" style="background-color: var(--custom-primary); width: 70%; padding: 10px">
                     <h5 class="mb-0" style="font-weight: bold">10</h5>
                     <small>Fakultas</small>
                   </div>
@@ -576,32 +337,15 @@
             </div>
 
             <div class="col-6 mt-4">
-              <div
-                class="card w-100"
-                style="border-radius: 8px; overflow: hidden"
-              >
+              <div class="card w-100" style="border-radius: 8px; overflow: hidden">
                 <div class="d-flex">
                   <!-- Bagian Kiri (Logo) -->
-                  <div
-                    class="text-white d-flex justify-content-center"
-                    style="
-                      background-color: #184274;
-                      width: 60px;
-                      padding: 20px;
-                    "
-                  >
+                  <div class="text-white d-flex justify-content-center" style="background-color: #184274; width: 60px; padding: 20px">
                     <span style="font-weight: bold">LOGO</span>
                   </div>
 
                   <!-- Bagian Kanan -->
-                  <div
-                    class="text-white d-flex flex-column justify-content-center w-100"
-                    style="
-                      background-color: var(--custom-primary);
-                      width: 70%;
-                      padding: 10px;
-                    "
-                  >
+                  <div class="text-white d-flex flex-column justify-content-center w-100" style="background-color: var(--custom-primary); width: 70%; padding: 10px">
                     <h5 class="mb-0" style="font-weight: bold">10</h5>
                     <small>Fakultas</small>
                   </div>
@@ -610,32 +354,15 @@
             </div>
 
             <div class="col-6 mt-4">
-              <div
-                class="card w-100"
-                style="border-radius: 8px; overflow: hidden"
-              >
+              <div class="card w-100" style="border-radius: 8px; overflow: hidden">
                 <div class="d-flex">
                   <!-- Bagian Kiri (Logo) -->
-                  <div
-                    class="text-white d-flex justify-content-center"
-                    style="
-                      background-color: #184274;
-                      width: 60px;
-                      padding: 20px;
-                    "
-                  >
+                  <div class="text-white d-flex justify-content-center" style="background-color: #184274; width: 60px; padding: 20px">
                     <span style="font-weight: bold">LOGO</span>
                   </div>
 
                   <!-- Bagian Kanan -->
-                  <div
-                    class="text-white d-flex flex-column justify-content-center w-100"
-                    style="
-                      background-color: var(--custom-primary);
-                      width: 70%;
-                      padding: 10px;
-                    "
-                  >
+                  <div class="text-white d-flex flex-column justify-content-center w-100" style="background-color: var(--custom-primary); width: 70%; padding: 10px">
                     <h5 class="mb-0" style="font-weight: bold">10</h5>
                     <small>Fakultas</small>
                   </div>
@@ -644,32 +371,15 @@
             </div>
 
             <div class="col-6 mt-4">
-              <div
-                class="card w-100"
-                style="border-radius: 8px; overflow: hidden"
-              >
+              <div class="card w-100" style="border-radius: 8px; overflow: hidden">
                 <div class="d-flex">
                   <!-- Bagian Kiri (Logo) -->
-                  <div
-                    class="text-white d-flex justify-content-center"
-                    style="
-                      background-color: #184274;
-                      width: 60px;
-                      padding: 20px;
-                    "
-                  >
+                  <div class="text-white d-flex justify-content-center" style="background-color: #184274; width: 60px; padding: 20px">
                     <span style="font-weight: bold">LOGO</span>
                   </div>
 
                   <!-- Bagian Kanan -->
-                  <div
-                    class="text-white d-flex flex-column justify-content-center w-100"
-                    style="
-                      background-color: var(--custom-primary);
-                      width: 70%;
-                      padding: 10px;
-                    "
-                  >
+                  <div class="text-white d-flex flex-column justify-content-center w-100" style="background-color: var(--custom-primary); width: 70%; padding: 10px">
                     <h5 class="mb-0" style="font-weight: bold">10</h5>
                     <small>Fakultas</small>
                   </div>
@@ -681,31 +391,13 @@
           <!-- Mahasiswa Start -->
           <div class="row mt-4 ms-auto">
             <div class="col-6 col-md-4 mt-3">
-              <div
-                class=""
-                style="
-                  width: 150px;
-                  overflow: hidden;
-                  border-top-right-radius: 8px;
-                  border-bottom-right-radius: 8px;
-                "
-              >
+              <div class="" style="width: 150px; overflow: hidden; border-top-right-radius: 8px; border-bottom-right-radius: 8px">
                 <div class="d-flex">
                   <!-- Bagian Kiri (Logo) -->
-                  <div
-                    class="text-white d-flex align-items-center justify-content-center"
-                    style="background-color: var(--secondary); width: 10%"
-                  ></div>
+                  <div class="text-white d-flex align-items-center justify-content-center" style="background-color: var(--secondary); width: 10%"></div>
 
                   <!-- Bagian Kanan -->
-                  <div
-                    class="text-white d-flex flex-column justify-content-center"
-                    style="
-                      background-color: var(--custom-primary);
-                      width: 100%;
-                      padding: 10px;
-                    "
-                  >
+                  <div class="text-white d-flex flex-column justify-content-center" style="background-color: var(--custom-primary); width: 100%; padding: 10px">
                     <h5 class="mb-0 fs-5" style="font-weight: bold">10.000</h5>
                     <small>Mahasiswa</small>
                   </div>
@@ -713,31 +405,13 @@
               </div>
             </div>
             <div class="col-6 col-md-4 mt-3">
-              <div
-                class=""
-                style="
-                  width: 150px;
-                  overflow: hidden;
-                  border-top-right-radius: 8px;
-                  border-bottom-right-radius: 8px;
-                "
-              >
+              <div class="" style="width: 150px; overflow: hidden; border-top-right-radius: 8px; border-bottom-right-radius: 8px">
                 <div class="d-flex">
                   <!-- Bagian Kiri (Logo) -->
-                  <div
-                    class="text-white d-flex align-items-center justify-content-center"
-                    style="background-color: var(--secondary); width: 10%"
-                  ></div>
+                  <div class="text-white d-flex align-items-center justify-content-center" style="background-color: var(--secondary); width: 10%"></div>
 
                   <!-- Bagian Kanan -->
-                  <div
-                    class="text-white d-flex flex-column justify-content-center"
-                    style="
-                      background-color: var(--custom-primary);
-                      width: 100%;
-                      padding: 10px;
-                    "
-                  >
+                  <div class="text-white d-flex flex-column justify-content-center" style="background-color: var(--custom-primary); width: 100%; padding: 10px">
                     <h5 class="mb-0 fs-5" style="font-weight: bold">10.000</h5>
                     <small>Mahasiswa</small>
                   </div>
@@ -745,31 +419,13 @@
               </div>
             </div>
             <div class="col-6 col-md-4 mt-3">
-              <div
-                class=""
-                style="
-                  width: 150px;
-                  overflow: hidden;
-                  border-top-right-radius: 8px;
-                  border-bottom-right-radius: 8px;
-                "
-              >
+              <div class="" style="width: 150px; overflow: hidden; border-top-right-radius: 8px; border-bottom-right-radius: 8px">
                 <div class="d-flex">
                   <!-- Bagian Kiri (Logo) -->
-                  <div
-                    class="text-white d-flex align-items-center justify-content-center"
-                    style="background-color: var(--secondary); width: 10%"
-                  ></div>
+                  <div class="text-white d-flex align-items-center justify-content-center" style="background-color: var(--secondary); width: 10%"></div>
 
                   <!-- Bagian Kanan -->
-                  <div
-                    class="text-white d-flex flex-column justify-content-center"
-                    style="
-                      background-color: var(--custom-primary);
-                      width: 100%;
-                      padding: 10px;
-                    "
-                  >
+                  <div class="text-white d-flex flex-column justify-content-center" style="background-color: var(--custom-primary); width: 100%; padding: 10px">
                     <h5 class="mb-0 fs-5" style="font-weight: bold">10.000</h5>
                     <small>Mahasiswa</small>
                   </div>
@@ -777,31 +433,13 @@
               </div>
             </div>
             <div class="col-6 col-md-4 mt-3">
-              <div
-                class=""
-                style="
-                  width: 150px;
-                  overflow: hidden;
-                  border-top-right-radius: 8px;
-                  border-bottom-right-radius: 8px;
-                "
-              >
+              <div class="" style="width: 150px; overflow: hidden; border-top-right-radius: 8px; border-bottom-right-radius: 8px">
                 <div class="d-flex">
                   <!-- Bagian Kiri (Logo) -->
-                  <div
-                    class="text-white d-flex align-items-center justify-content-center"
-                    style="background-color: var(--secondary); width: 10%"
-                  ></div>
+                  <div class="text-white d-flex align-items-center justify-content-center" style="background-color: var(--secondary); width: 10%"></div>
 
                   <!-- Bagian Kanan -->
-                  <div
-                    class="text-white d-flex flex-column justify-content-center"
-                    style="
-                      background-color: var(--custom-primary);
-                      width: 100%;
-                      padding: 10px;
-                    "
-                  >
+                  <div class="text-white d-flex flex-column justify-content-center" style="background-color: var(--custom-primary); width: 100%; padding: 10px">
                     <h5 class="mb-0 fs-5" style="font-weight: bold">10.000</h5>
                     <small>Mahasiswa</small>
                   </div>
@@ -809,31 +447,13 @@
               </div>
             </div>
             <div class="col-6 col-md-4 mt-3">
-              <div
-                class=""
-                style="
-                  width: 150px;
-                  overflow: hidden;
-                  border-top-right-radius: 8px;
-                  border-bottom-right-radius: 8px;
-                "
-              >
+              <div class="" style="width: 150px; overflow: hidden; border-top-right-radius: 8px; border-bottom-right-radius: 8px">
                 <div class="d-flex">
                   <!-- Bagian Kiri (Logo) -->
-                  <div
-                    class="text-white d-flex align-items-center justify-content-center"
-                    style="background-color: var(--secondary); width: 10%"
-                  ></div>
+                  <div class="text-white d-flex align-items-center justify-content-center" style="background-color: var(--secondary); width: 10%"></div>
 
                   <!-- Bagian Kanan -->
-                  <div
-                    class="text-white d-flex flex-column justify-content-center"
-                    style="
-                      background-color: var(--custom-primary);
-                      width: 100%;
-                      padding: 10px;
-                    "
-                  >
+                  <div class="text-white d-flex flex-column justify-content-center" style="background-color: var(--custom-primary); width: 100%; padding: 10px">
                     <h5 class="mb-0 fs-5" style="font-weight: bold">10.000</h5>
                     <small>Mahasiswa</small>
                   </div>
@@ -841,31 +461,13 @@
               </div>
             </div>
             <div class="col-6 col-md-4 mt-3">
-              <div
-                class=""
-                style="
-                  width: 150px;
-                  overflow: hidden;
-                  border-top-right-radius: 8px;
-                  border-bottom-right-radius: 8px;
-                "
-              >
+              <div class="" style="width: 150px; overflow: hidden; border-top-right-radius: 8px; border-bottom-right-radius: 8px">
                 <div class="d-flex">
                   <!-- Bagian Kiri (Logo) -->
-                  <div
-                    class="text-white d-flex align-items-center justify-content-center"
-                    style="background-color: var(--secondary); width: 10%"
-                  ></div>
+                  <div class="text-white d-flex align-items-center justify-content-center" style="background-color: var(--secondary); width: 10%"></div>
 
                   <!-- Bagian Kanan -->
-                  <div
-                    class="text-white d-flex flex-column justify-content-center"
-                    style="
-                      background-color: var(--custom-primary);
-                      width: 100%;
-                      padding: 10px;
-                    "
-                  >
+                  <div class="text-white d-flex flex-column justify-content-center" style="background-color: var(--custom-primary); width: 100%; padding: 10px">
                     <h5 class="mb-0 fs-5" style="font-weight: bold">10.000</h5>
                     <small>Mahasiswa</small>
                   </div>
@@ -878,55 +480,35 @@
       </div>
       <!-- Video Profile Unpam & Data Terkini End-->
     </div>
-
     <!-- Tentang Unpam End -->
 
     <!-- Kampus Start -->
     <div class="container-fluid text-center" style="margin-top: 120px">
-      <h2 class="heading" style="color: var(--custom-primary)">
-        KAMPUS UNIVERSITAS PAMULANG
-      </h2>
-      <span class="mt-3 text-akademik"
-        >Mempersiapkan mahasiswa untuk memberikan kontribusi yang berarti pada
-        masyarakat, bangsa dan dunia.</span
-      >
+      <h2 class="heading" style="color: var(--custom-primary)">KAMPUS UNIVERSITAS PAMULANG</h2>
+      <span class="mt-3 text-akademik">Mempersiapkan mahasiswa untuk memberikan kontribusi yang berarti pada masyarakat, bangsa dan dunia.</span>
 
       <!-- 4 Kampus Unpam Start -->
       <div class="row mt-5">
         <!-- Unpam Pusat -->
         <div class="col-6 col-md-3 col-xl-3 col-xxl-3">
           <div class="card-kampus card mb-3">
-            <img
-              src="img/kampus/pusat.jpg"
-              class="card-img-top rounded"
-              height="170em"
-              alt="Kampus Pusat"
-            />
+            <img src="img/kampus/pusat.jpg" class="card-img-top rounded card-img-kampus" height="170em" alt="Kampus Pusat" />
           </div>
           <h5 class="mb-4" style="color: var(--custom-primary)">Pusat</h5>
         </div>
         <!-- Unpam Viktor -->
         <div class="col-6 col-md-3 col-xl-3 col-xxl-3">
-          <div class="card-kampus card mb-3">
-            <img src="img/unpam-viktor.jpg" class="card-img-top rounded"
-            height="170em alt="Kampus Pusat" />
-          </div>
+          <div class="card-kampus card mb-3"><img src="img/unpam-viktor.jpg" class="card-img-top rounded card-img-kampus" height="170em alt="Kampus Pusat" /></div>
           <h5 class="mb-4" style="color: var(--custom-primary)">Viktor</h5>
         </div>
         <!-- Unpam Witana -->
         <div class="col-6 col-md-3 col-xl-3 col-xxl-3">
-          <div class="card-kampus card mb-3">
-            <img src="img/kampus/witana.jpg" class="card-img-top rounded"
-            height="170em alt="Kampus Pusat" />
-          </div>
+          <div class="card-kampus card mb-3"><img src="img/kampus/witana.jpg" class="card-img-top rounded card-img-kampus" height="170em alt="Kampus Pusat" /></div>
           <h5 class="mb-4" style="color: var(--custom-primary)">Witana</h5>
         </div>
         <!-- Unpam Serang -->
         <div class="col-6 col-md-3 col-xl-3 col-xxl-3">
-          <div class="card-kampus card mb-3">
-            <img src="img/kampus/serang.jpg" class="card-img-top rounded"
-            height="170em alt="Kampus Pusat" />
-          </div>
+          <div class="card-kampus card mb-3"><img src="img/kampus/serang.jpg" class="card-img-top rounded card-img-kampus" height="170em alt="Kampus Pusat" /></div>
           <h5 class="mb-4" style="color: var(--custom-primary)">Serang</h5>
         </div>
       </div>
@@ -936,52 +518,24 @@
 
     <!-- Berita Start -->
     <div class="container-fluid">
-      <h2
-        class="mt-5 mb-5 heading text-center pb-5"
-        style="
-          color: var(--custom-primary);
-          border-bottom: 1px solid var(--secondary);
-        "
-      >
-        <span class="pb-4" style="border-bottom: 10px solid var(--secondary)"
-          >BERITA UNPAM</span
-        >
+      <h2 class="mt-5 mb-5 heading text-center pb-5" style="color: var(--custom-primary); border-bottom: 1px solid var(--secondary)">
+        <span class="pb-4" style="border-bottom: 10px solid var(--secondary)">BERITA UNPAM</span>
       </h2>
       <div class="row">
         <!-- Informasi terkini Start -->
         <div class="col-12 col-md-8 col-sm-12">
           <div class="position-relative">
-            <h4
-              class="mb-3 text-start"
-              style="
-                font-family: 'Poppins';
-                font-weight: 600;
-                font-size: 20px;
-                color: #185eaa;
-                border-bottom: 3px solid #185eaa;
-              "
-            >
-              INFORMASI TERKINI
-            </h4>
+            <h4 class="mb-3 text-start" style="font-family: 'Poppins'; font-weight: 600; font-size: 20px; color: #185eaa; border-bottom: 3px solid #185eaa">INFORMASI TERKINI</h4>
             <div class="card mb-4 position-relative overflow-hidden">
-              <img
-                src="img/berita1.jpg"
-                class="rounded-2 responsive-img"
-                alt="Publikasi 1"
-              />
-              <div
-                class="card-body text-white position-absolute bottom-0 start-0 end-0"
-                style="background-color: rgba(0, 0, 0, 0.5)"
-              >
+              <img src="img/berita1.jpg" class="rounded-2 responsive-img" alt="Publikasi 1" />
+              <div class="card-body text-white position-absolute bottom-0 start-0 end-0" style="background-color: rgba(0, 0, 0, 0.5)">
                 <h5 class="card-title">
                   Rapat Koordinasi Orangtua Terkait Pembelajaran Baru
                   <i class="bi bi-share-fill"></i>
                 </h5>
                 <div class="d-flex justify-content-between align-items-center">
                   <p class="m-0">Monday, 26 Aug 2024</p>
-                  <a href="#" class="btn btn-warning text-white"
-                    >Selengkapnya</a
-                  >
+                  <a href="#" class="btn btn-warning text-white">Selengkapnya</a>
                 </div>
               </div>
             </div>
@@ -993,85 +547,44 @@
         <!-- Videep & Berita Lainnya Start-->
         <div class="col-md-4 -mt-4">
           <div class="position-relative" style="overflow: hidden">
-            <h4
-              class="mb-3 text-start"
-              style="color: #0066cc; border-bottom: 3px solid #0066cc"
-            >
-              <span
-                class=""
-                style="border-bottom: 3px solid var(--custom-primary)"
-                >VIDEO</span
-              >
+            <h4 class="mb-3 text-start" style="color: #0066cc; border-bottom: 3px solid #0066cc">
+              <span class="" style="border-bottom: 3px solid var(--custom-primary)">VIDEO</span>
             </h4>
 
             <div class="row mb-2 align-items-center">
               <div class="col-4">
-                <img
-                  src="img/berita1.jpg"
-                  class="card-img-top w-100 h-100 rounded"
-                  style="object-fit: cover"
-                  alt="..."
-                />
+                <img src="img/berita1.jpg" class="card-img-top w-100 h-100 rounded" style="object-fit: cover" alt="..." />
               </div>
               <div class="col-8">
-                <p class="small mb-1">
-                  12Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Sapiente, provident
-                </p>
+                <p class="small mb-1">12Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, provident</p>
                 <span class="text-secondary small">26 Oktober, 2024</span>
               </div>
             </div>
 
-            <h4
-              class="mb-3 text-start p-0"
-              style="color: #0066cc; border-bottom: 3px solid #0066cc"
-            >
-              <span
-                class=""
-                style="border-bottom: 3px solid var(--custom-primary)"
-                >BERITA LAINNYA</span
-              >
+            <h4 class="mb-3 text-start p-0" style="color: #0066cc; border-bottom: 3px solid #0066cc">
+              <span class="" style="border-bottom: 3px solid var(--custom-primary)">BERITA LAINNYA</span>
             </h4>
             <div class="row mb-2 align-items-center">
               <div class="col-4">
-                <img
-                  src="img/berita1.jpg"
-                  class="card-img-top w-100 h-100 rounded"
-                  style="object-fit: cover; width: 150px"
-                  alt="..."
-                />
+                <img src="img/berita1.jpg" class="card-img-top w-100 h-100 rounded" style="object-fit: cover; width: 150px" alt="..." />
               </div>
               <div class="col-8">
-                <p class="small mb-1">
-                  12Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Sapiente, provident
-                </p>
+                <p class="small mb-1">12Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, provident</p>
                 <span class="text-secondary small">26 Oktober, 2024</span>
               </div>
             </div>
             <div class="row mb-2 align-items-center">
               <div class="col-4">
-                <img
-                  src="img/berita1.jpg"
-                  class="card-img-top w-100 h-100 rounded"
-                  style="object-fit: cover; width: 150px"
-                  alt="..."
-                />
+                <img src="img/berita1.jpg" class="card-img-top w-100 h-100 rounded" style="object-fit: cover; width: 150px" alt="..." />
               </div>
               <div class="col-8">
-                <p class="small mb-1">
-                  12Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Sapiente, provident
-                </p>
+                <p class="small mb-1">12Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, provident</p>
                 <span class="text-secondary small">26 Oktober, 2024</span>
               </div>
             </div>
           </div>
 
-          <div
-            class="p-1 align-items-center justify-content-center"
-            style="background-color: var(--custom-primary)"
-          >
+          <div class="p-1 align-items-center justify-content-center" style="background-color: var(--custom-primary)">
             <span class="text-white p-2">Lihat Berita</span>
           </div>
         </div>
@@ -1083,12 +596,7 @@
     <!-- Bagian Kalender akademik Start -->
     <div class="container-fluid">
       <div class="text-center py-4">
-        <h2
-          class="mt-5 heading fw-semibold"
-          style="color: var(--custom-primary)"
-        >
-          KALENDER AKADEMIK GASAL
-        </h2>
+        <h2 class="mt-5 heading fw-semibold" style="color: var(--custom-primary)">KALENDER AKADEMIK GASAL</h2>
         <h3 style="color: var(--secondary)">2024/2025</h3>
       </div>
       <div class="row">
@@ -1108,13 +616,8 @@
           </div>
         </div>
         <div class="col-12 col-md-6 d-flex flex-column">
-          <h4
-            class="mb-3 mt-3 mt-md-0 text-start p-0"
-            style="color: #0066cc; border-bottom: 3px solid #0066cc"
-          >
-            <span style="border-bottom: 3px solid var(--custom-primary)"
-              >Kalender Akademik</span
-            >
+          <h4 class="mb-3 mt-3 mt-md-0 text-start p-0" style="color: #0066cc; border-bottom: 3px solid #0066cc">
+            <span style="border-bottom: 3px solid var(--custom-primary)">Kalender Akademik</span>
           </h4>
           <div class="container mt-4 mb-3">
             <table class="kalender-akademik w-100">
@@ -1122,51 +625,39 @@
                 <tr>
                   <td class="tanggal">1-2 Nov</td>
                   <td>
-                    <span class="circle" style="color: #ffdf00">
-                      <i class="fas fa-circle"></i
-                    ></span>
+                    <span class="circle" style="color: #ffdf00"> <i class="fas fa-circle"></i></span>
                   </td>
                   <td>UTS / UAS</td>
                 </tr>
                 <tr>
                   <td class="tanggal">9 Nov</td>
                   <td>
-                    <span class="circle" style="color: #000">
-                      <i class="fas fa-circle"></i
-                    ></span>
+                    <span class="circle" style="color: #000"> <i class="fas fa-circle"></i></span>
                   </td>
                   <td>Tugas Dosen</td>
                 </tr>
                 <tr>
                   <td class="tanggal">26-27 Nov</td>
                   <td>
-                    <span class="circle" style="color: #90ee90">
-                      <i class="fas fa-circle"></i
-                    ></span>
+                    <span class="circle" style="color: #90ee90"> <i class="fas fa-circle"></i></span>
                   </td>
                   <td>PMB</td>
                 </tr>
                 <tr>
                   <td class="tanggal">29-30 Nov</td>
                   <td>
-                    <span class="circle" style="color: #90ee90">
-                      <i class="fas fa-circle"></i
-                    ></span>
+                    <span class="circle" style="color: #90ee90"> <i class="fas fa-circle"></i></span>
                   </td>
                   <td>PMB</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <button class="btn download-btn rounded-4 mb-0 mt-auto">
-            Unduh Kalender Akademik <i class="fa-solid fa-cloud-arrow-down"></i>
-          </button>
+          <button class="btn download-btn rounded-4 mb-0 mt-auto">Unduh Kalender Akademik <i class="fa-solid fa-cloud-arrow-down"></i></button>
         </div>
         <div class="col-12">
           <div class="container">
-            <ul
-              class="d-flex flex-wrap mt-4 list-unstyled justify-content-between"
-            >
+            <ul class="d-flex flex-wrap mt-4 list-unstyled justify-content-between">
               <li class="d-flex">
                 <span class="circle me-2" style="color: #90ee90">
                   <i class="fas fa-circle"></i>
@@ -1206,17 +697,6 @@
             </ul>
           </div>
         </div>
-        <div class="col-12">
-          <h4
-            class="mb-3 mt-3 mt-md-3 text-start p-0"
-            style="color: #0066cc; border-bottom: 3px solid #0066cc"
-          >
-            <span style="border-bottom: 3px solid var(--custom-primary)"
-              >Agenda</span
-            >
-          </h4>
-          <div class="table"></div>
-        </div>
       </div>
     </div>
 
@@ -1227,12 +707,7 @@
       <!-- Bagian Header -->
       <div class="text-center py-4">
         <h2 class="text-white mt-5 heading">LAYANAN DAN AGENDA</h2>
-        <p
-          class="text-dark mt-3"
-          style="font-family: 'Poppins'; font-weight: 500; font-size: 15px"
-        >
-          Hadirkan Pendidikan berkualitas tinggi di seluruh penjuru negeri
-        </p>
+        <p class="text-dark mt-3" style="font-family: 'Poppins'; font-weight: 500; font-size: 15px">Hadirkan Pendidikan berkualitas tinggi di seluruh penjuru negeri</p>
       </div>
       <hr />
       <div class="row mt-5">
@@ -1241,89 +716,49 @@
           <div class="row gy-4">
             <!-- Card MyDosen -->
             <div class="col-md-4 col-6">
-              <div class="card h-100 card-layanan">
-                <div
-                  class="card-body bg-light rounded d-flex flex-column align-items-center justify-content-center"
-                >
-                  <img
-                    src="img/img-layanan-1.png"
-                    alt="img-layanan-dosen"
-                    class="card-layanan-image mb-3"
-                  />
-                  <h4 class="card-title text-center" style="color: #185eaa">
-                    MyDosen
-                  </h4>
+              <div class="card h-100">
+                <div class="card-body bg-light rounded d-flex flex-column align-items-center justify-content-center card-layanan">
+                  <img src="img/img-layanan-1.png" alt="img-layanan-dosen" class="card-layanan-image mb-3" />
+                  <h4 class="card-title text-center" style="color: #185eaa">MyDosen</h4>
                 </div>
               </div>
             </div>
             <div class="col-md-4 col-6">
-              <div class="card h-100 card-layanan">
-                <div
-                  class="card-body bg-light rounded d-flex flex-column align-items-center justify-content-center"
-                >
-                  <img
-                    src="img/img-layanan-2.png"
-                    alt="img-layanan-dosen"
-                    class="card-layanan-image"
-                  />
+              <div class="card h-100">
+                <div class="card-body bg-light rounded d-flex flex-column align-items-center justify-content-center card-layanan">
+                  <img src="img/img-layanan-2.png" alt="img-layanan-dosen" class="card-layanan-image" />
                   <h4 class="card-title" style="color: #185eaa">MyUnpam</h4>
                 </div>
               </div>
             </div>
             <div class="col-md-4 col-6">
-              <div class="card h-100 card-layanan">
-                <div
-                  class="card-body bg-light rounded d-flex flex-column align-items-center justify-content-center"
-                >
-                  <img
-                    src="img/img-layanan-3.png"
-                    alt="img-layanan-dosen"
-                    class="card-layanan-image"
-                  />
+              <div class="card h-100">
+                <div class="card-body bg-light rounded d-flex flex-column align-items-center justify-content-center card-layanan">
+                  <img src="img/img-layanan-3.png" alt="img-layanan-dosen" class="card-layanan-image" />
                   <h4 class="card-title" style="color: #185eaa">E-Learning</h4>
                 </div>
               </div>
             </div>
             <div class="col-md-4 col-6">
-              <div class="card h-100 card-layanan">
-                <div
-                  class="card-body bg-light rounded d-flex flex-column align-items-center justify-content-center"
-                >
-                  <img
-                    src="img/img-layanan-4.png"
-                    alt="img-layanan-dosen"
-                    class="card-layanan-image"
-                  />
-                  <h4 class="card-title" style="color: #185eaa">
-                    Perpustakaan
-                  </h4>
+              <div class="card h-100">
+                <div class="card-body bg-light rounded d-flex flex-column align-items-center justify-content-center card-layanan">
+                  <img src="img/img-layanan-4.png" alt="img-layanan-dosen" class="card-layanan-image" />
+                  <h4 class="card-title" style="color: #185eaa">Perpustakaan</h4>
                 </div>
               </div>
             </div>
             <div class="col-md-4 col-6">
-              <div class="card h-100 card-layanan">
-                <div
-                  class="card-body bg-light rounded d-flex flex-column align-items-center justify-content-center"
-                >
-                  <img
-                    src="img/img-layanan-5.png"
-                    alt="img-layanan-dosen"
-                    class="card-layanan-image"
-                  />
+              <div class="card h-100">
+                <div class="card-body bg-light rounded d-flex flex-column align-items-center justify-content-center card-layanan">
+                  <img src="img/img-layanan-5.png" alt="img-layanan-dosen" class="card-layanan-image" />
                   <h4 class="card-title" style="color: #185eaa">Helpdesk</h4>
                 </div>
               </div>
             </div>
             <div class="col-md-4 col-6">
-              <div class="card h-100 card-layanan">
-                <div
-                  class="card-body bg-light rounded d-flex flex-column align-items-center justify-content-center"
-                >
-                  <img
-                    src="img/img-layanan-6.png"
-                    alt="img-layanan-dosen"
-                    class="card-layanan-image"
-                  />
+              <div class="card h-100">
+                <div class="card-body bg-light rounded d-flex flex-column align-items-center justify-content-center card-layanan">
+                  <img src="img/img-layanan-6.png" alt="img-layanan-dosen" class="card-layanan-image" />
                   <h4 class="card-title" style="color: #185eaa">PMB Online</h4>
                 </div>
               </div>
@@ -1332,21 +767,22 @@
 
           <!-- Tautan Layanan Lainnya -->
           <div class="d-flex justify-content-start text-center mt-4 mb-5">
-            <a
-              href="#"
-              class="btn btn-primary"
-              style="font-family: 'Poppins'; font-weight: 400; font-size: 12px"
-              >LIHAT LAYANAN LAINNYA</a
-            >
+            <a href="#" class="btn btn-primary" style="font-family: 'Poppins'; font-weight: 400; font-size: 12px">LIHAT LAYANAN LAINNYA</a>
           </div>
         </div>
 
         <!-- Bagian Agenda (Kanan) -->
         <div class="col-md-4 mt-3">
-          <div
-            class="row g-3 custom-scroll"
-            style="max-height: 400px; overflow-y: scroll"
-          >
+          <div class="row g-3 custom-scroll agenda-scroll" style="overflow-y: scroll">
+            <div class="col-12 mb-1">
+              <div class="card border-0 h-100">
+                <div class="card-body rounded">
+                  <h4 class="card-title">19 Okt</h4>
+                  <p class="card-text">Sabtu, 19 Oktober 2024</p>
+                  <p class="card-text">Webinar 'Menjadi Ahli K3 Umum'</p>
+                </div>
+              </div>
+            </div>
             <div class="col-12 mb-1">
               <div class="card border-0 h-100">
                 <div class="card-body rounded">
@@ -1377,12 +813,7 @@
           </div>
           <!-- Tautan Layanan Lainnya -->
           <div class="d-flex justify-content-end text-center mt-4 mb-5">
-            <a
-              href="#"
-              class="btn btn-primary"
-              style="font-family: 'Poppins'; font-weight: 400; font-size: 12px"
-              >LIHAT AGENDA LAINNYA</a
-            >
+            <a href="#" class="btn btn-primary" style="font-family: 'Poppins'; font-weight: 400; font-size: 12px">LIHAT AGENDA LAINNYA</a>
           </div>
         </div>
       </div>
@@ -1393,56 +824,33 @@
     <div class="container-fluid text-center" style="background-color: #185aa1">
       <div class="row">
         <div class="col-3 m-auto pt-3">
-          <a
-            class="navbar-brand d-flex align-items-center justify-content-center"
-            style="cursor: default"
-            href="#"
-          >
-            <img
-              src="img/logo-unpam.png"
-              alt="logo-unpam"
-              width="60px"
-              class="me-2 logo-nav"
-            />
+          <a class="navbar-brand d-flex align-items-center justify-content-center" style="cursor: default" href="#">
+            <img src="img/logo-unpam.png" alt="logo-unpam" width="60px" class="me-2 logo-nav" />
             <div class="text-logo-nav">
               <h6 class="mb-0 text-nav-1 text-white">UNIVERSITAS PAMULANG</h6>
-              <h6 class="mb-0 text-nav-2" style="color: #fffb00">
-                | Berbagi Untuk Negeri
-              </h6>
+              <h6 class="mb-0 text-nav-2" style="color: #fffb00">| Berbagi Untuk Negeri</h6>
             </div>
           </a>
         </div>
         <div class="col-md-9 col-xl-9 col-xxl-9 col-12">
           <div class="logos">
             <div class="logo_items">
-              <a href=""
-                ><img src="img/partner/kampusMerdeka.png" class="ms-4"
-              /></a>
-              <a href=""
-                ><img src="img/partner/kemendikbud.png" class="ms-4"
-              /></a>
+              <a href=""><img src="img/partner/kampusMerdeka.png" class="ms-4" /></a>
+              <a href=""><img src="img/partner/kemendikbud.png" class="ms-4" /></a>
               <a href=""><img src="img/partner/yayasan.png" class="ms-4" /></a>
               <a href=""><img src="img/partner/unsut.png" class="ms-4" /></a>
             </div>
 
             <div class="logo_items">
-              <a href=""
-                ><img src="img/partner/kampusMerdeka.png" class="ms-4"
-              /></a>
-              <a href=""
-                ><img src="img/partner/kemendikbud.png" class="ms-4"
-              /></a>
+              <a href=""><img src="img/partner/kampusMerdeka.png" class="ms-4" /></a>
+              <a href=""><img src="img/partner/kemendikbud.png" class="ms-4" /></a>
               <a href=""><img src="img/partner/yayasan.png" class="ms-4" /></a>
               <a href=""><img src="img/partner/unsut.png" class="ms-4" /></a>
             </div>
 
             <div class="logo_items">
-              <a href=""
-                ><img src="img/partner/kampusMerdeka.png" class="ms-4"
-              /></a>
-              <a href=""
-                ><img src="img/partner/kemendikbud.png" class="ms-4"
-              /></a>
+              <a href=""><img src="img/partner/kampusMerdeka.png" class="ms-4" /></a>
+              <a href=""><img src="img/partner/kemendikbud.png" class="ms-4" /></a>
               <a href=""><img src="img/partner/yayasan.png" class="ms-4" /></a>
               <a href=""><img src="img/partner/unsut.png" class="ms-4" /></a>
             </div>
@@ -1455,160 +863,107 @@
     <!-- Footer Start -->
     <div class="container-fluid p-0">
       <!-- Footer -->
-      <footer
-        class="text-center text-lg-start text-white"
-        style="background-color: var(--custom-primary)"
-      >
+      <footer class="text-center text-lg-start text-white" style="background-color: var(--custom-primary)">
         <!-- Section: Links  -->
         <section class="p-3">
-          <div class="container text-center text-md-start m-0">
-            <!-- Grid row -->
-            <div class="row mt-3">
-              <!-- Grid column -->
-              <div
-                class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 footer-border p-3"
-              >
-                <!-- Content -->
-                <p>
-                  Universitas Pamulang (UNPAM) merupakan sebuah Perguruan Tinggi
-                  swasta yang memberikan kesempatan pendidikan tinggi kepada
-                  semua lapisan masyarakat terutama kepada mereka yang kurang
-                  beruntung, baik kurang secara finansial maupun secara
-                  akademik.
-                </p>
-                <div class="alamat">
-                  <h6 class="text-uppercase fw-bold">Alamat:</h6>
-                  <p>
-                    Kampus Pusat : Jl. Surya Kencana No.1, Pamulang Bar., Kec.
-                    Pamulang, Kota Tangerang Selatan, Banten 15417
-                  </p>
-                  <p>
-                    Kampus Viktor : Jl. Raya Puspitek, Buaran, Kec. Pamulang,
-                    Kota Tangerang Selatan, Banten 15310
-                  </p>
-                  <p>
-                    Kampus Witana : Jl. Witana Harja No.18b, Pamulang Bar., Kec.
-                    Pamulang, Kota Tangerang Selatan, Banten 15417
-                  </p>
-                  <p>
-                    Kampus Serang : Jl. Lintas Serang - Jakarta Kampung
-                    Malandang Kel. Kelodran Kec. Walantaka, Kota Serang - Banten
-                    42183
-                  </p>
-                </div>
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-4 mx-auto mb-4 footer-border">
+              <!-- Content -->
+              <p>
+                Universitas Pamulang (UNPAM) merupakan sebuah Perguruan Tinggi swasta yang memberikan kesempatan pendidikan tinggi kepada semua lapisan masyarakat terutama kepada mereka yang kurang beruntung, baik kurang secara finansial
+                maupun secara akademik.
+              </p>
+              <div class="alamat">
+                <h6 class="text-uppercase fw-bold">Alamat:</h6>
+                <p>Kampus Pusat : Jl. Surya Kencana No.1, Pamulang Bar., Kec. Pamulang, Kota Tangerang Selatan, Banten 15417</p>
+                <p>Kampus Viktor : Jl. Raya Puspitek, Buaran, Kec. Pamulang, Kota Tangerang Selatan, Banten 15310</p>
+                <p>Kampus Witana : Jl. Witana Harja No.18b, Pamulang Bar., Kec. Pamulang, Kota Tangerang Selatan, Banten 15417</p>
+                <p>Kampus Serang : Jl. Lintas Serang - Jakarta Kampung Malandang Kel. Kelodran Kec. Walantaka, Kota Serang - Banten 42183</p>
               </div>
-              <!-- Grid column -->
-
-              <!-- Grid column -->
-              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                <!-- Links -->
-                <h6 class="text-uppercase fw-bold">Beranda</h6>
-                <hr
-                  class="mb-4 mt-0 d-inline-block mx-auto"
-                  style="width: 60px; background-color: #7c4dff; height: 2px"
-                />
-                <p>Tentang</p>
-                <p>Kegiatan</p>
-                <p>Kelembagaan</p>
-                <p>Fakultas</p>
-                <p>Unit Industri</p>
-                <p>Penerimaan</p>
-                <h6 class="text-uppercase fw-bold">Tentang</h6>
-                <p href="" class="text-white">Kegiatan Mahasiswa</p>
-                <p href="" class="text-white">Gallery & Video</p>
-                <p href="" class="text-white">
-                  Penghargaan Nasional Dan Internasiona
-                </p>
-                <h6 class="text-uppercase fw-bold mt-3">Kelembagaan</h6>
-                <p href="" class="text-white">
-                  Kajian Pembelajaran dan ELearning
-                </p>
-                <p href="" class="text-white">Penelitian dan Pengabdian</p>
-                <p href="" class="text-white">Keagamaan</p>
-                <p href="" class="text-white">Penjaminan Mutu</p>
-                <p href="" class="text-white">Sertifikasi Profesi `(LSP)`</p>
-                <p href="" class="text-white">Kerjasama</p>
-                <p href="" class="text-white">Kemahasiswaan</p>
-                <p href="" class="text-white">Lembaga Bahasa</p>
-              </div>
-              <!-- Grid column -->
-
-              <!-- Grid column -->
-              <div
-                class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 footer-border"
-              >
-                <!-- Links -->
-                <h6 class="text-uppercase fw-bold">Fakultas</h6>
-                <hr
-                  class="mb-4 mt-0 d-inline-block mx-auto"
-                  style="width: 60px; background-color: #7c4dff; height: 2px"
-                />
-                <p>Fakultas Unpam</p>
-                <p>Fakultas Unpam Kota Serang</p>
-                <h6 class="text-uppercase fw-bold">Fasilitas</h6>
-                <p>Gedung</p>
-                <p>Perpustakaan</p>
-                <p>Kesehatan</p>
-                <p>Laboratorium</p>
-                <p>Masjid</p>
-                <p>Sasmita Jaya TV</p>
-                <h6 class="text-uppercase fw-bold">Fasilitas</h6>
-                <p>Rama Teknik</p>
-                <p>Multi Rama Karya</p>
-                <p>PT. BPR Sasmita Sejahtera</p>
-                <p>PINTER</p>
-                <p>Property Situ Indah Kedaung</p>
-                <p>Tirta Sasmita</p>
-                <p>Unit Produksi</p>
-                <h6 class="text-uppercase fw-bold">Penerimaan</h6>
-              </div>
-              <!-- Grid column -->
-
-              <!-- Grid column -->
-              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                <!-- Links -->
-                <h6 class="text-uppercase fw-bold mb-4">Lokasi</h6>
-                <div class="maps">
-                  <img
-                    src="img/maps.png"
-                    class="rounded"
-                    width="320px"
-                    alt="Kampus Pusat"
-                  />
-                </div>
-
-                <h2 class="mt-4">Hubungi Kami</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-                  amet perferendis magni vitae, nam fugit in provident, rerum
-                  asperiores sed vero recusandae quae! Aliquam delectus, ipsum
-                  possimus earum repellat officia?
-                </p>
-
-                <h4>Finds Us</h4>
-                <hr
-                  class="mt-0 d-inline-block mx-auto"
-                  style="width: 60px; background-color: #7c4dff; height: 2px"
-                />
-                <div class="logo">
-                  <i class="bi bi-facebook fs-2"></i>
-                  <i class="bi bi-youtube fs-2 ms-3"></i>
-                  <i class="bi bi-instagram fs-2 ms-3"></i>
-                  <i class="bi bi-whatsapp fs-2 ms-3"></i>
-                </div>
-              </div>
-              <!-- Grid column -->
             </div>
-            <!-- Grid row -->
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Beranda</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
+              <p>Tentang</p>
+              <p>Kegiatan</p>
+              <p>Kelembagaan</p>
+              <p>Fakultas</p>
+              <p>Unit Industri</p>
+              <p>Penerimaan</p>
+              <h6 class="text-uppercase fw-bold">Tentang</h6>
+              <p href="" class="text-white">Kegiatan Mahasiswa</p>
+              <p href="" class="text-white">Gallery & Video</p>
+              <p href="" class="text-white">Penghargaan Nasional Dan Internasiona</p>
+              <h6 class="text-uppercase fw-bold mt-3">Kelembagaan</h6>
+              <p href="" class="text-white">Kajian Pembelajaran dan ELearning</p>
+              <p href="" class="text-white">Penelitian dan Pengabdian</p>
+              <p href="" class="text-white">Keagamaan</p>
+              <p href="" class="text-white">Penjaminan Mutu</p>
+              <p href="" class="text-white">Sertifikasi Profesi `(LSP)`</p>
+              <p href="" class="text-white">Kerjasama</p>
+              <p href="" class="text-white">Kemahasiswaan</p>
+              <p href="" class="text-white">Lembaga Bahasa</p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-2 mx-auto mb-4 footer-border">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Fakultas</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
+              <p>Fakultas Unpam</p>
+              <p>Fakultas Unpam Kota Serang</p>
+              <h6 class="text-uppercase fw-bold">Fasilitas</h6>
+              <p>Gedung</p>
+              <p>Perpustakaan</p>
+              <p>Kesehatan</p>
+              <p>Laboratorium</p>
+              <p>Masjid</p>
+              <p>Sasmita Jaya TV</p>
+              <h6 class="text-uppercase fw-bold">Fasilitas</h6>
+              <p>Rama Teknik</p>
+              <p>Multi Rama Karya</p>
+              <p>PT. BPR Sasmita Sejahtera</p>
+              <p>PINTER</p>
+              <p>Property Situ Indah Kedaung</p>
+              <p>Tirta Sasmita</p>
+              <p>Unit Produksi</p>
+              <h6 class="text-uppercase fw-bold">Penerimaan</h6>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Lokasi</h6>
+              <div class="maps">
+                <img src="img/maps.png" class="rounded" width="320px" alt="Kampus Pusat" />
+              </div>
+
+              <h2 class="mt-4">Hubungi Kami</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam amet perferendis magni vitae, nam fugit in provident, rerum asperiores sed vero recusandae quae! Aliquam delectus, ipsum possimus earum repellat officia?</p>
+
+              <h4>Finds Us</h4>
+              <hr class="mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
+              <div class="logo">
+                <i class="bi bi-facebook fs-2"></i>
+                <i class="bi bi-youtube fs-2 ms-3"></i>
+                <i class="bi bi-instagram fs-2 ms-3"></i>
+                <i class="bi bi-whatsapp fs-2 ms-3"></i>
+              </div>
+            </div>
+            <!-- Grid column -->
           </div>
         </section>
         <!-- Section: Links  -->
 
         <!-- Copyright -->
-        <div
-          class="text-center p-3"
-          style="background-color: rgba(0, 0, 0, 0.2)"
-        >
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
           © 2024 Hak Cipta Universitas Pamulang
           <a class="text-white" href="https://github.com/yogiastriana"></a>
         </div>
@@ -1618,42 +973,34 @@
     </div>
     <!-- End of .container -->
 
-    <script
-      src="bootstrap/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <script>
       // Script untuk menambahkan class 'show' saat di-hover
-      document
-        .querySelectorAll(".nav-item.dropdown")
-        .forEach(function (dropdown) {
-          dropdown.addEventListener("mouseover", function () {
-            this.classList.add("show");
-            this.querySelector(".dropdown-menu").classList.add("show");
-          });
-
-          dropdown.addEventListener("mouseout", function () {
-            this.classList.remove("show");
-            this.querySelector(".dropdown-menu").classList.remove("show");
-          });
+      document.querySelectorAll(".nav-item.dropdown").forEach(function (dropdown) {
+        dropdown.addEventListener("mouseover", function () {
+          this.classList.add("show");
+          this.querySelector(".dropdown-menu").classList.add("show");
         });
 
-      document
-        .getElementById("toggleText")
-        .addEventListener("click", function () {
-          var moreText = document.getElementById("moreText");
-
-          // Mengubah status tampil atau sembunyi
-          if (moreText.classList.contains("d-none")) {
-            moreText.classList.remove("d-none"); // Tampilkan teks lebih banyak
-            this.innerText = "Tutup"; // Ubah teks menjadi "Tutup"
-          } else {
-            moreText.classList.add("d-none"); // Sembunyikan teks lebih banyak
-            this.innerText = "Baca Selengkapnya"; // Kembali ke teks awal
-          }
+        dropdown.addEventListener("mouseout", function () {
+          this.classList.remove("show");
+          this.querySelector(".dropdown-menu").classList.remove("show");
         });
+      });
+
+      document.getElementById("toggleText").addEventListener("click", function () {
+        var moreText = document.getElementById("moreText");
+
+        // Mengubah status tampil atau sembunyi
+        if (moreText.classList.contains("d-none")) {
+          moreText.classList.remove("d-none"); // Tampilkan teks lebih banyak
+          this.innerText = "Tutup"; // Ubah teks menjadi "Tutup"
+        } else {
+          moreText.classList.add("d-none"); // Sembunyikan teks lebih banyak
+          this.innerText = "Baca Selengkapnya"; // Kembali ke teks awal
+        }
+      });
 
       // Autotyping
       var app = document.getElementById("app");
@@ -1682,20 +1029,7 @@
         const year = today.getFullYear();
 
         // Set month and year in header
-        const monthNames = [
-          "Januari",
-          "Februari",
-          "Maret",
-          "April",
-          "Mei",
-          "Juni",
-          "Juli",
-          "Agustus",
-          "September",
-          "Oktober",
-          "November",
-          "Desember",
-        ];
+        const monthNames = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
         monthYear.textContent = `${monthNames[month]} ${year}`;
 
         // Get the first day of the month and total days in the month
@@ -1715,11 +1049,7 @@
           dateCell.classList.add("day");
 
           // Highlight today's date
-          if (
-            day === today.getDate() &&
-            month === today.getMonth() &&
-            year === today.getFullYear()
-          ) {
+          if (day === today.getDate() && month === today.getMonth() && year === today.getFullYear()) {
             dateCell.classList.add("day-today");
           }
 

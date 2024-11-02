@@ -155,20 +155,12 @@ body {
 
 .logos:before {
   left: 0;
-  background: linear-gradient(
-    to left,
-    rgba(255, 255, 255, 0),
-    rgb(24, 90, 161)
-  );
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(24, 90, 161));
 }
 
 .logos:after {
   right: 0;
-  background: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0),
-    rgb(24, 90, 161)
-  );
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(24, 90, 161));
 }
 
 .logo_items {
@@ -256,6 +248,13 @@ body {
   }
 }
 
+/* Responsive Image Section kampus */
+@media (min-width: 1600px) {
+  .card-img-kampus {
+    height: 250px;
+  }
+}
+
 /* Hover pada section kampus */
 .card-kampus {
   transition: margin-bottom 0.3s ease, transform 0.3s ease;
@@ -284,6 +283,22 @@ body {
 
 .card-layanan:hover .card-layanan-image {
   transform: scale(1.05);
+}
+
+@media (min-width: 1600px) {
+  .card-layanan {
+    height: 250px;
+  }
+}
+
+/* Layanan dan Agenda scroll */
+.agenda-scroll {
+  max-height: 380px;
+}
+@media (min-width: 1600px) {
+  .agenda-scroll {
+    max-height: 520px;
+  }
 }
 
 /* footer border right */
@@ -373,3 +388,4 @@ body {
   display: inline-flex;
   box-sizing: content-box; /* Ensures padding doesn't affect the icon size */
 }
+`
