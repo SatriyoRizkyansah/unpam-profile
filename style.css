@@ -159,20 +159,12 @@ body {
 
 .logos:before {
   left: 0;
-  background: linear-gradient(
-    to left,
-    rgba(255, 255, 255, 0),
-    rgb(24, 90, 161)
-  );
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(24, 90, 161));
 }
 
 .logos:after {
   right: 0;
-  background: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0),
-    rgb(24, 90, 161)
-  );
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(24, 90, 161));
 }
 
 .logo_items {
@@ -234,28 +226,29 @@ body {
 }
 
 /* Responsive img di section berita */
-
 .responsive-img {
-  width: 100%; /* Memastikan gambar memenuhi lebar container */
+  width: 100%;
   object-fit: cover;
   opacity: 1;
+  height: 460px;
 }
 
-@media (min-width: 1200px) {
-  /* Monitor besar */
+/* Responsive Image Section kampus - man yang ini jangan di hapus*/
+@media (min-width: 1600px) {
   .responsive-img {
-    height: 465px;
+    height: 670px;
   }
 }
 
-/* Responsive Image Section kampus */
+@media (max-width: 767px) {
+  .responsive-img {
+    height: 300px;
+  }
+}
+
+/* Responsive image pada section kampus */
 @media (min-width: 1600px) {
   .card-img-kampus {
-    height: 250px;
-  }
-}
-@media (min-width: 1600px) {
-  .card-layanan {
     height: 250px;
   }
 }
