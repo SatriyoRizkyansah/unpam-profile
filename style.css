@@ -159,12 +159,20 @@ body {
 
 .logos:before {
   left: 0;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(24, 90, 161));
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0),
+    rgb(24, 90, 161)
+  );
 }
 
 .logos:after {
   right: 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(24, 90, 161));
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgb(24, 90, 161)
+  );
 }
 
 .logo_items {
@@ -490,3 +498,22 @@ body {
   display: inline-flex;
   box-sizing: content-box; /* Ensures padding doesn't affect the icon size */
 }
+
+/* Footer Responsive */
+
+/* @media (max-width: 740px) {
+  footer p,
+  h4,
+  h5,
+  h6 {
+    font-size: 9px;
+  }
+
+  footer .maps img {
+    width: 130px;
+  }
+
+  footer .logo li {
+    font-size: 13px;
+  }
+} */
