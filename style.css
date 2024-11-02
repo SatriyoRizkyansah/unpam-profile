@@ -155,12 +155,20 @@ body {
 
 .logos:before {
   left: 0;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(24, 90, 161));
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0),
+    rgb(24, 90, 161)
+  );
 }
 
 .logos:after {
   right: 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(24, 90, 161));
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgb(24, 90, 161)
+  );
 }
 
 .logo_items {
@@ -288,4 +296,80 @@ body {
   .footer-border {
     border-right: solid 0px rgba(225, 225, 225, 0.6);
   }
+}
+
+/* Kalender */
+.calendar {
+  background-color: #2162a0;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+.calendar h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.day {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.day-header {
+  color: #ff6b6b;
+}
+
+.day-disabled {
+  color: #999;
+}
+
+.day-today {
+  background-color: #ffdd57;
+  color: #333;
+}
+
+.day-weekend {
+  color: #ff6b6b;
+}
+
+/* Kalender Akademik */
+
+.kalender-akademik tr .tanggal {
+  color: #ffa000;
+  font-weight: 600;
+  padding: 5px;
+}
+
+.download-btn {
+  background-color: #2162a0;
+  color: white;
+  font-weight: 500;
+}
+
+.download-btn:hover {
+  background-color: #1a4e7f;
+  color: white;
+  font-weight: 500;
+}
+
+.icon-border {
+  border: 1px solid red;
+  border-radius: 50%; /* Ensures the border is circular */
+  display: inline-flex;
+  box-sizing: content-box; /* Ensures padding doesn't affect the icon size */
 }
