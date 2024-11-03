@@ -159,20 +159,12 @@ body {
 
 .logos:before {
   left: 0;
-  background: linear-gradient(
-    to left,
-    rgba(255, 255, 255, 0),
-    rgb(24, 90, 161)
-  );
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(24, 90, 161));
 }
 
 .logos:after {
   right: 0;
-  background: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0),
-    rgb(24, 90, 161)
-  );
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(24, 90, 161));
 }
 
 .logo_items {
@@ -565,12 +557,7 @@ body {
 }
 
 .card-overlay:hover {
-  background-color: rgba(
-    255,
-    160,
-    0,
-    0.7
-  ); /* Warna latar belakang saat hover */
+  background-color: rgba(255, 160, 0, 0.7); /* Warna latar belakang saat hover */
 }
 
 .card-overlay.active {
@@ -620,9 +607,7 @@ body {
   height: 40px; /* Tinggi panah */
   margin: 5px; /* Menambahkan margin 5 piksel */
   top: 50%; /* Menempatkan panah di tengah vertikal */
-  transform: translateY(
-    -50%
-  ); /* Menyelaraskan panah ke tengah secara vertikal */
+  transform: translateY(-50%); /* Menyelaraskan panah ke tengah secara vertikal */
 }
 
 .carousel-control-prev-icon,
@@ -781,15 +766,15 @@ body {
   padding: 0.5rem 1rem;
 }
 
-.dropdown-toggle {
+.dropdown-toggle-berita {
   width: 50px !important;
 }
 
-.dropdown-toggle:hover {
+.dropdown-toggle-berita:hover {
   background-color: #ff9f00 !important;
 }
 
-.dropdown-toggle::after {
+.dropdown-toggle-berita::after {
   display: none;
 }
 
