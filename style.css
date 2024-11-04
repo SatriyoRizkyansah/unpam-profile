@@ -159,12 +159,20 @@ body {
 
 .logos:before {
   left: 0;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(24, 90, 161));
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0),
+    rgb(24, 90, 161)
+  );
 }
 
 .logos:after {
   right: 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(24, 90, 161));
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgb(24, 90, 161)
+  );
 }
 
 .logo_items {
@@ -257,14 +265,16 @@ body {
 
 .custom-card {
   position: relative;
-  overflow: hidden; /* Ensures the ::before element doesn't extend beyond the card */
+  overflow: hidden;
+  /* Ensures the ::before element doesn't extend beyond the card */
   background-color: #f5f8fa;
   border-radius: 10px;
   border: none;
   max-width: 100%;
   height: 100px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  transition: color 0.3s ease; /* Text color transition */
+  transition: color 0.3s ease;
+  /* Text color transition */
 }
 
 /* Create a sliding effect for the background */
@@ -272,30 +282,37 @@ body {
   content: "";
   position: absolute;
   top: 0;
-  left: -100%; /* Start from the left outside the card */
+  left: -100%;
+  /* Start from the left outside the card */
   width: 100%;
   height: 100%;
   background-color: #1976d2;
-  transition: transform 0.5s ease; /* Adjust the speed as needed */
+  transition: transform 0.5s ease;
+  /* Adjust the speed as needed */
   transform: translateX(0);
-  z-index: 0; /* Ensure the background layer is below the content */
+  z-index: 0;
+  /* Ensure the background layer is below the content */
 }
 
 .custom-card:hover::before {
-  transform: translateX(100%); /* Slide from left to right */
+  transform: translateX(100%);
+  /* Slide from left to right */
 }
 
 .custom-card:hover {
-  color: white; /* Change text color on hover */
+  color: white;
+  /* Change text color on hover */
 }
 
 .custom-card > * {
   position: relative;
-  z-index: 1; /* Ensure content stays above the background layer */
+  z-index: 1;
+  /* Ensure content stays above the background layer */
 }
 
 .date-box {
-  background-color: #1976d2; /* Blue background for the date box */
+  background-color: #1976d2;
+  /* Blue background for the date box */
   color: white;
   padding: 35px;
   width: 50px;
@@ -383,10 +400,12 @@ body {
     height: 250px;
   }
 }
+
 /* Layanan dan Agenda scroll */
 .agenda-scroll {
   max-height: 320px;
 }
+
 @media (min-width: 1600px) {
   .agenda-scroll {
     max-height: 520px;
@@ -486,9 +505,11 @@ body {
 
 .icon-border {
   border: 1px solid red;
-  border-radius: 50%; /* Ensures the border is circular */
+  border-radius: 50%;
+  /* Ensures the border is circular */
   display: inline-flex;
-  box-sizing: content-box; /* Ensures padding doesn't affect the icon size */
+  box-sizing: content-box;
+  /* Ensures padding doesn't affect the icon size */
 }
 
 /* Footer Responsive */
@@ -527,7 +548,8 @@ body {
 
 .card-left {
   position: relative;
-  height: 300px; /* Sesuaikan tinggi sesuai kebutuhan */
+  height: 300px;
+  /* Sesuaikan tinggi sesuai kebutuhan */
   width: 100%;
   overflow: hidden;
   color: #fff;
@@ -535,11 +557,13 @@ body {
 
 .card-right {
   position: relative;
-  height: 145px; /* Sesuaikan tinggi sesuai kebutuhan */
+  height: 145px;
+  /* Sesuaikan tinggi sesuai kebutuhan */
   width: 100%;
   overflow: hidden;
   color: #fff;
 }
+
 .card-img-background {
   background-size: cover;
   background-position: center;
@@ -551,18 +575,22 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background: rgba(0, 0, 0, 0.6); /* Background hitam dengan transparansi */
+  background: rgba(0, 0, 0, 0.6);
+  /* Background hitam dengan transparansi */
   padding: 10px;
   ransition: background-color 0.3s ease;
 }
 
 .card-overlay:hover {
-  background-color: rgba(255, 160, 0, 0.7); /* Warna latar belakang saat hover */
+  background-color: rgba(255, 160, 0, 0.7);
+  /* Warna latar belakang saat hover */
 }
 
 .card-overlay.active {
-  background-color: #ffa000; /* Warna latar belakang saat elemen di-klik */
-  transition: background-color 0.3s ease; /* Transisi halus untuk perubahan warna */
+  background-color: #ffa000;
+  /* Warna latar belakang saat elemen di-klik */
+  transition: background-color 0.3s ease;
+  /* Transisi halus untuk perubahan warna */
 }
 
 .card-text {
@@ -574,47 +602,68 @@ body {
 .carousel {
   background-color: #185eaa;
 }
+
 .carousel-inner {
-  justify-content: center; /* Mengatur konten di tengah */
-  align-items: center; /* Vertikal center */
+  justify-content: center;
+  /* Mengatur konten di tengah */
+  align-items: center;
+  /* Vertikal center */
 }
+
 .carousel-indicators {
   position: absolute;
   bottom: 10px;
 }
+
 .carousel-indicators .indicator {
   width: 15px;
   height: 15px;
   border-radius: 50%;
   margin: 1px;
-  background-color: #a9a9a9; /* Warna default */
+  background-color: #a9a9a9;
+  /* Warna default */
 }
+
 .carousel-indicators .active {
-  background-color: #ffa000; /* Warna aktif */
+  background-color: #ffa000;
+  /* Warna aktif */
 }
+
 /* Sembunyikan angka barkernya */
 .carousel-indicators li {
-  list-style-type: none; /* Menghilangkan default bullet point */
+  list-style-type: none;
+  /* Menghilangkan default bullet point */
 }
 
 /* Gaya untuk panah */
 .carousel-control-prev,
 .carousel-control-next {
-  background-color: transparent; /* Menghilangkan latar belakang */
-  border: none; /* Menghapus border */
-  z-index: 10; /* Mengatur z-index agar berada di depan layer */
-  width: 40px; /* Lebar panah */
-  height: 40px; /* Tinggi panah */
-  margin: 5px; /* Menambahkan margin 5 piksel */
-  top: 50%; /* Menempatkan panah di tengah vertikal */
-  transform: translateY(-50%); /* Menyelaraskan panah ke tengah secara vertikal */
+  background-color: transparent;
+  /* Menghilangkan latar belakang */
+  border: none;
+  /* Menghapus border */
+  z-index: 10;
+  /* Mengatur z-index agar berada di depan layer */
+  width: 40px;
+  /* Lebar panah */
+  height: 40px;
+  /* Tinggi panah */
+  margin: 5px;
+  /* Menambahkan margin 5 piksel */
+  top: 50%;
+  /* Menempatkan panah di tengah vertikal */
+  transform: translateY(-50%);
+  /* Menyelaraskan panah ke tengah secara vertikal */
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: transparent; /* Menghilangkan background default */
-  color: blue; /* Mengubah warna panah menjadi biru */
-  font-size: 2rem; /* Mengatur ukuran font ikon panah */
+  background-color: transparent;
+  /* Menghilangkan background default */
+  color: blue;
+  /* Mengubah warna panah menjadi biru */
+  font-size: 2rem;
+  /* Mengatur ukuran font ikon panah */
 }
 
 /* ********************************************************************************************************************************************************* */
@@ -633,12 +682,14 @@ body {
   color: white;
   transition: transform 0.3s ease-in-out;
 }
+
 .news-card img {
   width: 100%;
   height: 200px;
   object-fit: cover;
   transition: transform 0.3s ease;
 }
+
 .news-card .card-overlay {
   position: absolute;
   bottom: 0;
@@ -647,20 +698,25 @@ body {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
   transition: background 0.3s ease;
 }
+
 .news-card .news-title {
   font-weight: bold;
   transition: font-size 0.3s ease;
 }
+
 .news-card .news-date {
   font-size: 0.875rem;
   opacity: 0.8;
 }
+
 .news-card:hover img {
   transform: scale(1.1);
 }
+
 .news-card:hover .card-overlay {
   background: linear-gradient(to top, rgba(0, 115, 255, 0.9), rgba(0, 0, 0, 0));
 }
+
 .news-card:hover .news-title {
   font-size: 1.1rem;
 }
@@ -707,11 +763,13 @@ body {
 .input-group .btn-primary:hover {
   background-color: #1254a1 !important;
 }
+
 /* Container and filter layout */
 .container .filter {
   display: flex;
   align-items: center;
-  gap: 0.25rem; /* Reduced gap between elements */
+  gap: 0.25rem;
+  /* Reduced gap between elements */
 }
 
 /* Search input styling */
@@ -744,7 +802,8 @@ body {
 /* Button group styles */
 .btn-group {
   position: relative;
-  margin-left: 0.25rem; /* Add small margin between search and buttons */
+  margin-left: 0.25rem;
+  /* Add small margin between search and buttons */
 }
 
 /* Main button style */
@@ -901,4 +960,154 @@ body {
 .pagination .page-item .page-link span {
   background-color: transparent;
   color: #185eaa;
+}
+
+/* Detail Berita */
+/* Detail Berita */
+/* Detail Berita */
+/* Detail Berita */
+/* Detail Berita */
+/* Detail Berita */
+/* Detail Berita */
+/* Detail Berita */
+/* Detail Berita */
+.shadow-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Adjust the values for desired shadow effect */
+  border-radius: 8px;
+  /* Optional: add rounded corners */
+}
+
+.container .text-date {
+  font-size: 12px;
+}
+
+.btn-extra-small {
+  /* Smaller padding */
+  font-size: 0.75rem;
+  /* Smaller font size */
+  line-height: 1;
+  /* Reduced line height */
+  width: 10px;
+}
+
+.dropdown-menu-detail {
+  position: absolute;
+  top: calc(100% + 1px);
+  left: 0;
+  background-color: #ff9f00 !important;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 0.75rem;
+  margin-top: 30px !important;
+  padding: 0;
+  transform: none !important;
+  z-index: 1050;
+}
+
+/* Dropdown items */
+.dropdown-menu-detail .dropdown-item {
+  color: white;
+  padding: 0.5rem 2rem;
+  background: #ff9f00;
+}
+
+.dropdown-menu-detail .dropdown-item:first-child {
+  background: #185eaa;
+}
+
+.dropdown-menu-detail .dropdown-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Komentar */
+.bdge {
+  height: 21px;
+  background-color: orange;
+  color: #fff;
+  font-size: 11px;
+  padding: 8px;
+  border-radius: 4px;
+  line-height: 3px;
+}
+
+.comments {
+  text-decoration: underline;
+  text-underline-position: under;
+  cursor: pointer;
+}
+
+.dot {
+  height: 7px;
+  width: 7px;
+  margin-top: 3px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.hit-voting:hover {
+  color: blue;
+}
+
+.hit-voting {
+  cursor: pointer;
+}
+
+.komentar {
+  font-size: small;
+}
+
+.komentar .btn {
+  background-color: #185eaa;
+  color: white;
+}
+
+.komentar .btn:hover {
+  background-color: #144376;
+  color: white;
+}
+
+.list-group-kategori {
+  padding: 0;
+  /* Menghilangkan padding default */
+}
+
+.list-group-kategori li {
+  position: relative;
+  /* Untuk posisi bullet point */
+  padding-left: 20px;
+  margin-bottom: 8px;
+
+  /* Memberikan jarak antara bullet point dan teks */
+}
+
+.list-group-kategori li::before {
+  content: "";
+  /* Menambahkan bullet point sebagai elemen pseudo */
+  display: inline-block;
+  width: 12px;
+  /* Lebar bullet point */
+  height: 12px;
+  /* Tinggi bullet point */
+  border-radius: 50%;
+  /* Membuat bullet point berbentuk bulat */
+  background-color: #ff9f00;
+  /* Warna bullet point */
+  position: absolute;
+  /* Posisi absolut agar bisa ditata */
+  left: 0;
+  /* Jarak dari teks */
+  top: 50%;
+  /* Vertikal tengah */
+  transform: translateY(-50%);
+  /* Mengatur posisi vertikal */
+}
+
+.list-group-kategori a {
+  text-decoration: none;
+  /* Menghilangkan garis bawah */
+  color: #185eaa;
+  /* Mengambil warna teks dari elemen induk */
 }
