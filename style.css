@@ -41,6 +41,7 @@ body {
 
 .dropdown-item {
   color: white;
+  font-size: 0.8rem;
 }
 
 .icon-circle i {
@@ -85,7 +86,13 @@ body {
 }
 
 .nav-link {
-  font-size: 12px;
+  font-size: 0.7rem;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  background-color: #ffa000;
+  font-size: 0.7rem;
 }
 
 .custom-scroll {
@@ -678,7 +685,6 @@ body {
 .news-card {
   position: relative;
   overflow: hidden;
-  border-radius: 10px;
   color: white;
   transition: transform 0.3s ease-in-out;
 }
@@ -1110,4 +1116,131 @@ body {
   /* Menghilangkan garis bawah */
   color: #185eaa;
   /* Mengambil warna teks dari elemen induk */
+}
+
+/* Agenda */
+/* Agenda */
+/* Agenda */
+/* Agenda */
+/* Agenda */
+
+.agenda-card .small-date-box {
+  background-color: #007bff;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.small-date-box .day {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1;
+  margin-top: -3px;
+  margin-bottom: -5px;
+}
+
+.small-date-box .month {
+  font-weight: 500;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  line-height: 0; /* Matches the day for closer vertical alignment */
+}
+
+.agenda-card .card-overlay {
+  display: flex;
+  align-items: center;
+}
+
+.agenda-card .agenda-title {
+  font-size: 0.7rem;
+  transition: font-size 0.3s ease;
+  color: white;
+  margin-left: 5px;
+  flex-grow: 1;
+}
+
+.agenda-card {
+  position: relative;
+  overflow: hidden;
+  color: white;
+  transition: transform 0.3s ease-in-out;
+}
+
+.agenda-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.agenda-card .card-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+  transition: background 0.3s ease;
+}
+
+.agenda-card .agenda-date {
+  font-size: 0.875rem;
+  opacity: 0.8;
+}
+
+.agenda-card:hover img {
+  transform: scale(1.1);
+}
+
+.agenda-card:hover .card-overlay {
+  background: linear-gradient(to top, rgba(255, 153, 0, 0.9), rgba(0, 0, 0, 0));
+}
+
+.agenda-card:hover .agenda-title {
+  font-size: 0.7rem;
+}
+
+.agenda-card:hover .small-date-box {
+  transition: background-color 0.3s ease;
+  background-color: #ffa000;
+  color: #ffffff;
+}
+
+.btn-show-all {
+  background-color: #ffa000;
+  color: white;
+}
+
+.btn-show-all:hover {
+  background-color: #185eaa;
+  color: white;
+}
+
+.btn-next {
+  color: #185eaa;
+  font-weight: normal;
+}
+
+.btn-next:hover {
+  background-color: #185eaa;
+  color: white;
+  font-weight: normal;
+}
+
+.btn-prev {
+  color: #185eaa;
+  font-weight: normal;
+}
+
+.btn-prev:hover {
+  background-color: #185eaa;
+  color: white;
+  font-weight: normal;
+}
+
+.current-date {
+  color: #185eaa;
+  font-weight: 500;
 }
