@@ -166,12 +166,20 @@ body {
 
 .logos:before {
   left: 0;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgb(24, 90, 161));
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0),
+    rgb(24, 90, 161)
+  );
 }
 
 .logos:after {
   right: 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(24, 90, 161));
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgb(24, 90, 161)
+  );
 }
 
 .logo_items {
@@ -237,11 +245,11 @@ body {
   width: 100%;
   object-fit: cover;
   opacity: 1;
-  height: 430px;
+  height: 460px;
 }
 
 /* Responsive Image Section kampus - man yang ini jangan di hapus*/
-/* @media (min-width: 1600px) {
+@media (min-width: 1600px) {
   .responsive-img {
     height: 670px;
   }
@@ -251,14 +259,14 @@ body {
   .responsive-img {
     height: 300px;
   }
-} */
+}
 
 /* Responsive image pada section kampus */
-/* @media (min-width: 1600px) {
+@media (min-width: 1600px) {
   .card-img-kampus {
     height: 250px;
   }
-} */
+}
 
 /* Layanan dan Agenda scroll */
 
@@ -335,7 +343,7 @@ body {
 .agenda-scroll {
   max-height: 315px;
 }
-/* 
+
 @media (min-width: 1600px) {
   .agenda-scroll {
     max-height: 520px;
@@ -346,7 +354,7 @@ body {
   .responsive-img {
     height: 300px;
   }
-} */
+}
 
 /* Hover pada section kampus */
 .card-kampus {
@@ -394,14 +402,14 @@ body {
   transform: scale(1.05);
 }
 
-/* @media (min-width: 1600px) {
+@media (min-width: 1600px) {
   .card-layanan {
     height: 250px;
   }
-} */
+}
 
 /* Layanan dan Agenda scroll */
-/* .agenda-scroll {
+.agenda-scroll {
   max-height: 320px;
 }
 
@@ -409,7 +417,7 @@ body {
   .agenda-scroll {
     max-height: 520px;
   }
-} */
+}
 
 /* footer border right */
 
@@ -598,9 +606,6 @@ body {
 }
 
 /* Carousell */
-.carousel {
-  background-color: #185eaa;
-}
 
 .carousel-inner {
   justify-content: center;
@@ -800,7 +805,6 @@ body {
 /* Button group styles */
 .btn-group {
   position: relative;
-  margin-left: 0.25rem;
   /* Add small margin between search and buttons */
 }
 
@@ -1118,6 +1122,10 @@ body {
 
 /* Event Terbaru */
 
+.description {
+  text-align: justify;
+}
+
 .left {
   padding: 20px;
 }
@@ -1311,7 +1319,11 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, rgba(24, 94, 170, 1) 0%, rgba(24, 94, 170, 0) 100%);
+  background: linear-gradient(
+    to right,
+    rgba(24, 94, 170, 1) 0%,
+    rgba(24, 94, 170, 0) 100%
+  );
   pointer-events: none;
   z-index: 1;
 }
@@ -1429,4 +1441,202 @@ body {
 
 .table tbody tr {
   border-bottom: #ffa000;
+}
+
+/* Fakultas Page */
+/* Fakultas Page */
+/* Fakultas Page */
+/* Fakultas Page */
+/* Fakultas Page */
+.page-wrapper {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-box {
+  border-radius: 15px;
+  padding: 30px;
+  width: 100%;
+}
+
+.info-box-fakultas {
+  background-color: #fff;
+}
+
+.info-heading {
+  font-size: 24px;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 8px;
+  margin-bottom: 25px;
+  color: #fff;
+  display: inline-block;
+}
+
+.info-heading-fakultas {
+  font-size: 24px;
+  border-bottom: 2px solid #ffa000;
+  padding-bottom: 8px;
+  margin-bottom: 25px;
+  color: #185eaa;
+}
+
+.info-container {
+  color: #fff;
+  display: flex;
+  align-items: flex-start;
+}
+
+.info-container-fakultas {
+  color: #000;
+  display: flex;
+  align-items: flex-start;
+}
+
+.info-description {
+  flex: 0 0 50%;
+  padding-right: 20px;
+  text-align: justify;
+}
+
+.info-description p {
+  line-height: 1.6;
+  margin: 0;
+  font-size: 15px;
+}
+
+.info-media {
+  flex: 0 0 50%;
+  background-color: #e9ecef;
+  border-radius: 10px;
+  height: 280px;
+  aspect-ratio: 1;
+  overflow: hidden;
+}
+
+.info-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .info-container {
+    flex-direction: column;
+  }
+
+  .info-description,
+  .info-media {
+    flex: 0 0 100%;
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .info-media {
+    margin-top: 20px;
+    aspect-ratio: 16/9;
+  }
+}
+
+.bg-primary-custom {
+  padding: 20px 0;
+}
+
+.section-title {
+  text-align: center;
+  color: #185eaa;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.section-title:after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 2px;
+  background: #185eaa;
+  margin: 10px auto;
+}
+
+.faculty-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.faculty-card {
+  background: #185eaa;
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.card-button {
+  background: #ffa500;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 20px;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.program-section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.program-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.program-btn {
+  border: 1px solid #185eaa;
+  border-radius: 20px;
+  padding: 8px 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .faculty-grid {
+    grid-template-columns: 2fr;
+  }
+
+  .program-buttons {
+    flex-direction: column;
+  }
+}
+
+/* Detail Fakultas */
+
+.fakultas {
+  background-color: #185eaa;
+  position: relative;
+  overflow: hidden;
+}
+
+.fakultas::before {
+  content: "";
+  background: url("../img/logo-t.png") no-repeat;
+  background-size: 300px 300px; /* Adjust the size as needed */
+  position: absolute;
+  transform: translate(-35%, -35%);
+  top: 20px; /* Adjust position as needed */
+  left: 20px; /* Adjust position as needed */
+  width: 300px;
+  height: 300px;
+}
+
+.prodi-text {
+  color: #185eaa;
 }
