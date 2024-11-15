@@ -1527,6 +1527,10 @@ body {
     flex-direction: column;
   }
 
+  .info-container-fakultas {
+    flex-direction: column;
+  }
+
   .info-description,
   .info-media {
     flex: 0 0 100%;
