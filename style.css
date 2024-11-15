@@ -1631,7 +1631,7 @@ body {
 
 .fakultas::before {
   content: "";
-  background: url("../img/logo-t.png") no-repeat;
+  background: url("img/logo-t.png") no-repeat;
   background-size: 300px 300px; /* Adjust the size as needed */
   position: absolute;
   transform: translate(-35%, -35%);
