@@ -346,10 +346,6 @@ body {
   transition: margin-bottom 0.3s ease, transform 0.3s ease;
 }
 
-.card-kampus:hover {
-  margin-bottom: 10px;
-}
-
 .card-img-top {
   transition: transform 0.3s ease;
 }
