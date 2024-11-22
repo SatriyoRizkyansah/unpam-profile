@@ -213,6 +213,10 @@ body {
   /* Menempatkan di bawah konten */
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .row {
   position: relative;
   /* Mengatur posisi untuk z-index pada row */
