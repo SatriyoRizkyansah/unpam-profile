@@ -1613,3 +1613,177 @@ body {
 .prodi-text {
   color: #185eaa;
 }
+
+/*  */
+/* RISET PAGE */
+
+.card.card-carousel {
+  border: 0;
+  border-radius: 6px;
+  color: rgba(0, 0, 0, 0.87);
+  background: #fff;
+  width: 100%;
+}
+
+.card.card-carousel img {
+  border-radius: 6px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  left: 0;
+  z-index: 15;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+}
+
+.carousel .carousel-indicators {
+  bottom: 5px;
+}
+
+.carousel .carousel-indicators li {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  text-indent: -999px;
+  cursor: pointer;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+}
+
+.carousel .carousel-indicators .active {
+  margin: 11px 5px;
+}
+
+.carousel .carousel-indicators li {
+  margin: 11px 5px;
+}
+
+.carousel .carousel-indicators .active {
+  margin-top: 10px;
+  transform: scale(1.5);
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12),
+    0 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-item {
+  position: relative;
+  display: none;
+  align-items: center;
+  width: 100% !important;
+  transition: transform 0.6s ease;
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.carousel-item.active {
+  display: block;
+}
+
+.carousel .carousel-caption {
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.carousel .carousel-caption .material-icons {
+  position: relative;
+  top: 5px;
+}
+
+.carousel .carousel-control-next .material-icons {
+  z-index: 5;
+  display: inline-block;
+  font-size: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  margin: auto;
+}
+
+.carousel .carousel-control-prev .material-icons {
+  z-index: 5;
+  display: inline-block;
+  font-size: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  margin: auto;
+}
+
+.col-12 .card {
+  background-color: #f5f5f5;
+}
+
+.card .img-card {
+  width: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.card-riset {
+  position: relative;
+  height: 100%;
+  /* Sesuaikan tinggi sesuai kebutuhan */
+  width: 100%;
+  overflow: hidden;
+  color: #000000;
+}
+
+.card-img-background {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.card-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(244, 244, 244, 0.812);
+  /* Background hitam dengan transparansi */
+  padding: 10px;
+  ransition: background-color 0.3s ease;
+}
+
+.card-overlay:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  /* Warna latar belakang saat hover */
+}
+
+.card-overlay.active {
+  background-color: #ffa000;
+  /* Warna latar belakang saat elemen di-klik */
+  transition: background-color 0.3s ease;
+  /* Transisi halus untuk perubahan warna */
+}
+
+.card-text {
+  margin: 0;
+  font-size: 11px;
+}
+
