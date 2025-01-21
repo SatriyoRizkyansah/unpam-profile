@@ -12,12 +12,11 @@ Welcome to the **UNPAM Profile** repository! This frontend project is designed t
 - **Photo Gallery**: A collection of images showcasing campus activities, facilities, and memorable moments.
 - **Contact and Location**: Official contact information of UNPAM with an integrated Google Maps location feature.
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 - **HTML5**: For structuring the content of the pages.
 - **CSS3**: For styling, animations, and responsive design.
 - **JavaScript**: For interactivity and dynamic functionalities.
 - **CSS Framework**: Built with [Bootstrap](https://getbootstrap.com) for responsiveness.
 - **Fonts and Icons**: Integrated with Google Fonts and FontAwesome.
 
-## 📂 Folder Structure
 
